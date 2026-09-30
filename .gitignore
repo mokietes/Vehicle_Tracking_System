@@ -1,0 +1,14 @@
+# Ignore local lock files (currently open files in KiCad)
+*.lck
+
+# Ignore project state files (window layouts, open tabs)
+*.kicad_prl
+
+# Ignore local temporary/history directories
+.history/
+_restore_backup_*/
+
+# Standard KiCad backup exclusions
+*.bak
+*-bak
+*.bck
