@@ -6535,29 +6535,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 29.21 7.62 0)
+			(property "Reference" "U203"
+				(at 16.002 4.318 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "TPS3840DL42DBVR"
-				(at 29.21 5.08 0)
+				(at 16.764 -9.652 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT95P280X145-5N"
+			(property "Footprint" "SamacSys_Parts:SOT95P280X145-6N"
 				(at 29.21 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6760,7 +6758,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 33.02 -2.54 180)
 					(length 5.08)
 					(name "CT"
@@ -6891,6 +6889,121 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -7707,6 +7820,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b26b0ca2-5de3-4336-b57e-130b1a826fce")
+	)
+	(junction
+		(at 331.47 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2e5bbe7-826f-4770-af1b-08def6a519d4")
 	)
 	(junction
 		(at 171.45 308.61)
@@ -9676,7 +9795,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 55.88) (xy 336.55 55.88)
+			(xy 309.88 55.88) (xy 331.47 55.88)
 		)
 		(stroke
 			(width 0)
@@ -10233,6 +10352,16 @@
 			(type default)
 		)
 		(uuid "ca9f854d-8719-416c-9bb7-24ea9555e6e4")
+	)
+	(wire
+		(pts
+			(xy 331.47 55.88) (xy 336.55 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb65831c-fb1a-4d5e-b6da-b29285019e32")
 	)
 	(wire
 		(pts
@@ -16666,6 +16795,84 @@
 			(project "Tracker"
 				(path "/d199d368-1586-417b-b5ba-1502c361dff2"
 					(reference "U702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 331.47 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "621189c8-7036-4319-b1c7-fc6579d4a213")
+		(property "Reference" "#FLG01"
+			(at 331.47 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 331.47 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 331.47 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18cca34e-a427-41d1-a314-f94ee5ee5a84")
+		)
+		(instances
+			(project "Tracker"
+				(path "/d199d368-1586-417b-b5ba-1502c361dff2"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -23922,7 +24129,7 @@
 		(dnp no)
 		(uuid "d5929c44-c55a-43ac-9175-b29b30b22b1d")
 		(property "Reference" "U902"
-			(at 382.27 210.82 0)
+			(at 382.524 214.376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24481,7 +24688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d93e618f-faa6-4f47-979e-3bfedefdfe5e")
-		(property "Reference" "U3"
+		(property "Reference" "U202"
 			(at 207.518 219.456 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24617,7 +24824,7 @@
 			)
 			(project "Tracker"
 				(path "/d199d368-1586-417b-b5ba-1502c361dff2"
-					(reference "U3")
+					(reference "U202")
 					(unit 1)
 				)
 			)
