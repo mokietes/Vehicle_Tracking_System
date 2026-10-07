@@ -672,7 +672,7 @@
       }
     ],
 
-    "used_designators": "U1-7,U303,R1-17,R802-805,J1-3,TP1-4,F1,D1-2,C1-8,C207,C215,C326-327,Q1-2,SW1-2,#SYM1,#PWR1-21,#PWR81-98,IC1-2",
+    "used_designators": "U1-7,U303,R1-17,R307-311,R802-805,J1-3,TP1-7,F1,D1-6,C1-8,C207,C215,C326-330,Q1-2,SW1-2,#SYM1,#PWR1-21,#PWR81-107,IC1-2",
 
     "variants": []
   },
