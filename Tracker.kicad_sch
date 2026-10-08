@@ -4127,6 +4127,382 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:TPS2121RUXR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC1"
+				(at 14.986 9.144 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS2121RUXR"
+				(at 14.986 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TPS2121RUXR"
+				(at 26.67 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/TPS2121"
+				(at 26.67 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "2.7-22V, 56m, 4.5A, Priority Power MUX with Seamless Switchover"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1"
+				(at 26.67 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 26.67 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TPS2121RUXR"
+				(at 26.67 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "595-TPS2121RUXR"
+				(at 26.67 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2121RUXR?qs=qSfuJ%252Bfl%2Fd7dCYiVnUfngQ%3D%3D"
+				(at 26.67 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "TPS2121RUXR"
+				(at 26.67 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps2121ruxr/texas-instruments.html?utm_currency=USD&region=nac"
+				(at 26.67 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "TPS2121RUXR_1_1"
+				(rectangle
+					(start 5.08 5.08)
+					(end 25.4 -19.05)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 30.48 3.81 180)
+					(length 5.08)
+					(name "OUT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -8.89 180)
+					(length 5.08)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -24.13 90)
+					(length 5.08)
+					(name "CP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -16.51 180)
+					(length 5.08)
+					(name "OV2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -16.51 0)
+					(length 5.08)
+					(name "OV1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "PR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 0)
+					(length 5.08)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 1.27 180)
+					(length 5.08)
+					(name "OUT_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -1.27 180)
+					(length 5.08)
+					(name "ST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -24.13 90)
+					(length 5.08)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -3.81 180)
+					(length 5.08)
+					(name "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -24.13 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:2N7002"
 			(pin_names
 				(offset 0)
@@ -4698,6 +5074,30 @@
 		)
 	)
 	(rectangle
+		(start 557.53 260.35)
+		(end 791.21 344.17)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4d78d59a-6e70-4ba5-9f68-8b04a0e6e5a5")
+	)
+	(rectangle
+		(start 83.82 242.57)
+		(end 241.3 299.72)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6bbe7064-507b-4b7e-9f33-d10e722240bb")
+	)
+	(rectangle
 		(start 356.87 278.13)
 		(end 547.37 364.49)
 		(stroke
@@ -4769,6 +5169,30 @@
 		)
 		(uuid "b0387599-73af-4684-a7bd-b0955db2e8c6")
 	)
+	(text "5V SOURCE MUX"
+		(exclude_from_sim no)
+		(at 99.568 247.396 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "b46707c8-dfde-469b-a0be-79d344756ff0")
+	)
+	(text "INPUT FILTER + AUTOMOTIVE BUCK\n"
+		(exclude_from_sim no)
+		(at 585.978 263.906 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "dd977aa6-ab26-44e1-9b3b-67ea39c0cb87")
+	)
 	(junction
 		(at 599.44 405.13)
 		(diameter 0)
@@ -4776,10 +5200,22 @@
 		(uuid "003fe2f9-e5bb-4b91-a27e-90c7b9436a11")
 	)
 	(junction
+		(at 106.68 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02cda31b-07d9-4872-815b-dfb1a3da162e")
+	)
+	(junction
 		(at 717.55 275.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "058f533b-956f-42a7-ab96-5b51a1944500")
+	)
+	(junction
+		(at 120.65 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0922deb9-03a2-4f64-bd66-72f61e9d35a5")
 	)
 	(junction
 		(at 717.55 273.05)
@@ -4810,6 +5246,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16add480-a883-4028-a0d4-119745ee0fa8")
+	)
+	(junction
+		(at 92.71 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18d39f08-cdb7-4a0f-b33f-3bda4b706df8")
 	)
 	(junction
 		(at 438.15 421.64)
@@ -4944,6 +5386,12 @@
 		(uuid "5ffbd3d0-7951-4382-ae43-1a82afdb01a1")
 	)
 	(junction
+		(at 191.77 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6147e5ab-0d0d-4be3-86a2-6fcf8519b610")
+	)
+	(junction
 		(at 358.14 424.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5046,10 +5494,28 @@
 		(uuid "9a8dcdc9-9351-4d09-93fb-95160d0d1a45")
 	)
 	(junction
+		(at 175.26 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b77dee0-7fb0-4b83-9d0d-975ef4e7986d")
+	)
+	(junction
+		(at 196.85 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c10ed4d-193a-4192-b61d-61f854783239")
+	)
+	(junction
 		(at 478.79 391.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e7e5770-8caa-4f51-bf39-7ae9a6b94701")
+	)
+	(junction
+		(at 146.05 285.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1ee89aa-e301-4ced-b7af-f5b6a1feec61")
 	)
 	(junction
 		(at 717.55 311.15)
@@ -5112,6 +5578,12 @@
 		(uuid "abe7d0d5-984f-4fac-b455-dadbbc7e8507")
 	)
 	(junction
+		(at 120.65 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad8d4cc6-c2bd-4ef8-8062-22d3d31ffb4f")
+	)
+	(junction
 		(at 717.55 318.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5130,10 +5602,22 @@
 		(uuid "b923060d-9908-46e6-8fc4-f51a09f177b7")
 	)
 	(junction
+		(at 106.68 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baec3851-a23c-40bf-a969-bc75773258a8")
+	)
+	(junction
 		(at 342.9 429.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c17a98b0-fb3d-444b-abf5-ee201e50a04c")
+	)
+	(junction
+		(at 175.26 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1ae9cf9-f3d9-439d-9d4b-43e546d722d4")
 	)
 	(junction
 		(at 695.96 326.39)
@@ -5176,6 +5660,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e278dd72-fcfd-405e-aa03-db99f0fd010c")
+	)
+	(junction
+		(at 162.56 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e61a559d-c7f5-4ee9-8396-765718fdea24")
 	)
 	(junction
 		(at 572.77 274.32)
@@ -5314,6 +5804,16 @@
 			(type default)
 		)
 		(uuid "09a3fd5b-0ffc-4d17-9e7d-276048054cd4")
+	)
+	(wire
+		(pts
+			(xy 120.65 257.81) (xy 106.68 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a442094-886a-4884-bddf-f9dd931928bd")
 	)
 	(wire
 		(pts
@@ -5487,6 +5987,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 260.35) (xy 162.56 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245973f1-1b8e-4862-81fd-97b04e615f80")
+	)
+	(wire
+		(pts
 			(xy 502.92 302.26) (xy 515.62 302.26)
 		)
 		(stroke
@@ -5564,6 +6074,16 @@
 			(type default)
 		)
 		(uuid "2e0a3cb3-05d9-4779-a470-e759c8befdf0")
+	)
+	(wire
+		(pts
+			(xy 120.65 257.81) (xy 120.65 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f807ed1-74ef-4230-9ccf-e2692fd27949")
 	)
 	(wire
 		(pts
@@ -5707,6 +6227,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 257.81) (xy 90.17 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bcb9e4f-0ba4-4f4b-9afc-13ba7bc31de0")
+	)
+	(wire
+		(pts
 			(xy 430.53 292.1) (xy 441.96 292.1)
 		)
 		(stroke
@@ -5724,6 +6254,16 @@
 			(type default)
 		)
 		(uuid "4e732a3a-c3c0-4dfe-845b-d84007b262ac")
+	)
+	(wire
+		(pts
+			(xy 120.65 266.7) (xy 130.81 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea7d242-ec37-4f1a-921c-728577aa5616")
 	)
 	(wire
 		(pts
@@ -5797,6 +6337,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 257.81) (xy 120.65 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b322332-8dcb-4dcc-b244-a51d397bdda6")
+	)
+	(wire
+		(pts
 			(xy 571.5 386.08) (xy 582.93 386.08)
 		)
 		(stroke
@@ -5827,6 +6377,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 257.81) (xy 92.71 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ebf9a16-30be-4f0d-a413-ab56ae41b6bd")
+	)
+	(wire
+		(pts
 			(xy 717.55 278.13) (xy 717.55 275.59)
 		)
 		(stroke
@@ -5844,6 +6404,16 @@
 			(type default)
 		)
 		(uuid "60c2772f-c755-4a3e-8f59-6f13138ae2d5")
+	)
+	(wire
+		(pts
+			(xy 161.29 278.13) (xy 175.26 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d52ab7-903d-4b7e-b7ca-0418d3aca18e")
 	)
 	(wire
 		(pts
@@ -5897,6 +6467,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 278.13) (xy 106.68 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c9898a-b2bb-4219-b702-87821149ea9b")
+	)
+	(wire
+		(pts
 			(xy 758.19 306.07) (xy 758.19 290.83)
 		)
 		(stroke
@@ -5924,6 +6504,16 @@
 			(type default)
 		)
 		(uuid "6a895ab5-8149-468a-911e-b5533ee53cf4")
+	)
+	(wire
+		(pts
+			(xy 214.63 257.81) (xy 224.79 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c250f6c-99b8-4359-a702-0b07f90b3deb")
 	)
 	(wire
 		(pts
@@ -5967,6 +6557,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 260.35) (xy 162.56 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72cfe3bf-09f6-4751-a14a-a7b5929fb364")
+	)
+	(wire
+		(pts
 			(xy 695.96 326.39) (xy 698.5 326.39)
 		)
 		(stroke
@@ -6007,6 +6607,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 257.81) (xy 162.56 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af8ecbf-43d1-41e2-953b-f3e49e2de053")
+	)
+	(wire
+		(pts
 			(xy 454.66 389.89) (xy 454.66 391.16)
 		)
 		(stroke
@@ -6037,6 +6647,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 270.51) (xy 207.01 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83edae51-8711-4c7c-ae6e-b3aa2cec3345")
+	)
+	(wire
+		(pts
 			(xy 560.07 386.08) (xy 560.07 397.51)
 		)
 		(stroke
@@ -6054,6 +6674,16 @@
 			(type default)
 		)
 		(uuid "88d8b7fd-8716-45bc-8952-8837d29cb2af")
+	)
+	(wire
+		(pts
+			(xy 106.68 257.81) (xy 106.68 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d8d19d-93cc-4266-910a-8fc86f33ee61")
 	)
 	(wire
 		(pts
@@ -6094,6 +6724,16 @@
 			(type default)
 		)
 		(uuid "8ea78783-232d-4660-8db5-e6f20a701039")
+	)
+	(wire
+		(pts
+			(xy 139.7 285.75) (xy 142.24 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907bffca-cdab-450d-9173-913d66744988")
 	)
 	(wire
 		(pts
@@ -6477,6 +7117,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 265.43) (xy 170.18 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95cc427-8a79-4b38-b19a-988a4d40ccb2")
+	)
+	(wire
+		(pts
 			(xy 392.43 427.99) (xy 392.43 429.26)
 		)
 		(stroke
@@ -6484,6 +7134,16 @@
 			(type default)
 		)
 		(uuid "ba925bc7-0ca4-4f0f-aa36-01f79332b1ec")
+	)
+	(wire
+		(pts
+			(xy 161.29 270.51) (xy 175.26 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb01f8f5-c88b-4572-99fa-a21ff996d54e")
 	)
 	(wire
 		(pts
@@ -6514,6 +7174,16 @@
 			(type default)
 		)
 		(uuid "bbf6fb65-d807-4587-ac75-b61bb1eb386b")
+	)
+	(wire
+		(pts
+			(xy 92.71 257.81) (xy 106.68 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdec127a-120c-4e20-a00a-18998fe3adf0")
 	)
 	(wire
 		(pts
@@ -6787,6 +7457,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 257.81) (xy 207.01 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66a1678-6afe-4a06-9b8b-ab54a57853b2")
+	)
+	(wire
+		(pts
 			(xy 548.64 386.08) (xy 560.07 386.08)
 		)
 		(stroke
@@ -6824,6 +7504,16 @@
 			(type default)
 		)
 		(uuid "d888e090-fe4b-4614-894c-abbd1dadd687")
+	)
+	(wire
+		(pts
+			(xy 162.56 257.81) (xy 196.85 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f8457e-25a1-424f-a230-17f7dde89306")
 	)
 	(wire
 		(pts
@@ -6927,6 +7617,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 285.75) (xy 148.59 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b8efcf-98cf-4243-9375-122d5d03dfd3")
+	)
+	(wire
+		(pts
 			(xy 717.55 300.99) (xy 717.55 298.45)
 		)
 		(stroke
@@ -6934,6 +7634,16 @@
 			(type default)
 		)
 		(uuid "e5cc6557-8f9c-4f3b-9bac-07b6e40f328c")
+	)
+	(wire
+		(pts
+			(xy 130.81 278.13) (xy 106.68 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d1d02b-01ee-4e0c-8f3e-ac7319e12e0c")
 	)
 	(wire
 		(pts
@@ -6954,6 +7664,16 @@
 			(type default)
 		)
 		(uuid "ea7e1d07-8960-45b1-a822-09d457bb8971")
+	)
+	(wire
+		(pts
+			(xy 175.26 270.51) (xy 191.77 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb944e58-b3bd-498b-a272-9b5de5a7deed")
 	)
 	(wire
 		(pts
@@ -7125,6 +7845,16 @@
 		)
 		(uuid "ffd848d8-f216-4352-9459-48cec5c3a391")
 	)
+	(label "VBUS_CHG"
+		(at 224.79 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ad41465-f3a2-4ae5-96bb-d256fd888e0c")
+	)
 	(label "VIN_PROT"
 		(at 570.23 274.32 180)
 		(effects
@@ -7240,6 +7970,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "MUX_ST"
+		(shape output)
+		(at 161.29 262.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "289579fe-a67f-4f13-a8b3-a4ebfe6e97bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.4113 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7411,6 +8165,30 @@
 			)
 		)
 	)
+	(global_label "VBUS_USB"
+		(shape input)
+		(at 207.01 270.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd560264-265a-47fa-817a-a60cf2c9f31b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.6714 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 377.19 346.71 270)
@@ -7491,6 +8269,166 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 175.26 285.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "010d2f3f-f4f7-4128-bb9b-d7d510061082")
+		(property "Reference" "#PWR0184"
+			(at 175.26 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 290.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c6b7b52-df11-4be4-8083-b63f2f6af548")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 262.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01acb9dc-dc58-4372-8b86-dd71eb1e0d2b")
+		(property "Reference" "R13"
+			(at 123.19 261.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "316k 1%"
+			(at 123.19 264.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TPS2121RUXR"
+			(at 118.872 262.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9208d681-37d7-4a41-b367-d997cd91edba")
+		)
+		(pin "1"
+			(uuid "f9d03ad8-5189-46bb-b5e3-1a5eaf4a50ec")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 407.67 334.01 180)
 		(unit 1)
@@ -7564,6 +8502,86 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "R316")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 257.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04519d6e-f5f9-4f6d-9cbc-86a29ef7e288")
+		(property "Reference" "R21"
+			(at 210.82 251.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20m 1% 1W"
+			(at 210.82 254 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS2121RUXR"
+			(at 210.82 259.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d2b11af0-738a-4cfc-8651-525595560338")
+		)
+		(pin "1"
+			(uuid "62235e00-c21a-4cf4-9e25-1b57c6ec3cba")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8033,6 +9051,84 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 265.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1261f8d6-7a66-4daf-9bc0-dd8f3603b840")
+		(property "Reference" "#PWR0183"
+			(at 177.8 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.102 267.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80aecc4c-dabb-4b84-9b68-e2a46344de63")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -8702,6 +9798,85 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "C322")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 196.85 257.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a28efb4-2b5b-449a-99a3-b89cf274aab6")
+		(property "Reference" "TP3"
+			(at 191.77 255.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 198.374 255.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 196.85 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfff0034-97d8-4512-a1ff-bb86a943162a")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10938,6 +12113,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 191.77 278.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c380147-94c7-45aa-a974-4241bb6c365e")
+		(property "Reference" "#PWR0185"
+			(at 191.77 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.326 279.908 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ae24f36-142b-4fe9-948c-6426e435dac8")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 635 281.94 0)
 		(unit 1)
 		(body_style 1)
@@ -11485,6 +12737,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 106.68 269.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59abdd20-bb80-4c25-8f3c-bc193377da07")
+		(property "Reference" "R15"
+			(at 109.22 267.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "237% 1%"
+			(at 109.22 270.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TPS2121RUXR"
+			(at 104.902 269.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7560648b-4e8f-42ee-ac73-a09ca11da4b8")
+		)
+		(pin "1"
+			(uuid "344bba1c-165d-4143-9fa5-037aff8ec149")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_GPS:MAX-M10S")
 		(at 565.15 415.29 0)
 		(unit 1)
@@ -11691,6 +13025,239 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "C323")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 173.99 265.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61977a46-07d5-40f6-befc-a976e17ffc3f")
+		(property "Reference" "C19"
+			(at 178.562 261.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 178.562 264.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 264.4648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 173.99 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6335058-79ff-476f-bb73-91f079d2d133")
+		)
+		(pin "2"
+			(uuid "ec9e7681-8e8b-4215-8702-84a864402c2f")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62908aa5-553e-4bff-86e8-b09f5778eb6f")
+		(property "Reference" "#PWR0180"
+			(at 120.65 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.952 276.352 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ab9a30e-d8a9-46c3-b39c-3e41c51f9f69")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 265.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "635b7c76-3117-4f2f-8dd5-bfc826ad7e8c")
+		(property "Reference" "#PWR0186"
+			(at 92.71 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.266 267.208 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cafaae96-28a1-4167-9fcd-84c1a29abaeb")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -11935,6 +13502,87 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68615972-78b4-4b7e-aaae-5a92f56da57b")
+		(property "Reference" "C22"
+			(at 199.898 261.112 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF 16V"
+			(at 199.898 263.652 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 197.8152 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfa1d836-2fa1-4ddf-8905-9906e1c11641")
+		)
+		(pin "2"
+			(uuid "243ddc4d-939e-4d25-831c-16e2f0e19ed7")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -13047,6 +14695,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 191.77 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f094441-d198-4c9b-a957-1d1d9680fcb2")
+		(property "Reference" "C21"
+			(at 195.58 273.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF 16V"
+			(at 195.58 275.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 192.7352 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1b1c406-ec6e-424f-a6e7-23705abbc705")
+		)
+		(pin "2"
+			(uuid "73d9eb94-3a42-4cb2-ba70-c2ca5f526979")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 459.74 412.75 270)
 		(unit 1)
@@ -13909,6 +15639,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 175.26 281.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "917192e7-7957-471a-ac8c-1784749485b9")
+		(property "Reference" "R18"
+			(at 177.8 280.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "49.9k 1%"
+			(at 177.8 283.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TPS2121RUXR"
+			(at 173.482 281.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e54d66b9-6799-4d4c-9fd6-7b19c64be0f3")
+		)
+		(pin "1"
+			(uuid "3f5fd417-56df-4c5e-ade5-48295196f41f")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 383.54 354.33 0)
 		(unit 1)
@@ -14299,6 +16111,84 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 90.17 256.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cc8a2df-0a91-4f19-84b1-5f550c7dd4da")
+		(property "Reference" "#PWR0178"
+			(at 90.17 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 90.17 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 90.17 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 90.17 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c92d02a5-fe3d-4dcb-96ad-e0ad460f2aa9")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -15089,6 +16979,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 196.85 265.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0049dcb-7908-40d0-80a6-033922ee7611")
+		(property "Reference" "#PWR0179"
+			(at 196.85 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.406 267.208 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8aac2165-4639-434c-a54a-f9f02cd0591f")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 485.14 299.72 0)
 		(unit 1)
 		(body_style 1)
@@ -15236,6 +17203,284 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3076d81-7bb0-4e2d-a765-d40c0e325b97")
+		(property "Reference" "R14"
+			(at 123.19 269.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k 1%"
+			(at 123.19 271.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TPS2121RUXR"
+			(at 118.872 270.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "63c4169d-abf3-41db-aca0-d2ec182217a7")
+		)
+		(pin "1"
+			(uuid "a55fd2ac-ecea-4ad2-98a8-72bda277b420")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TPS2121RUXR")
+		(at 130.81 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b568aad1-2ef0-4b1e-99a1-fcc29254e362")
+		(property "Reference" "U3"
+			(at 146.05 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS2121RUXR"
+			(at 146.05 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS2121RUXR"
+			(at 157.48 356.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/TPS2121"
+			(at 157.48 456.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "2.7-22V, 56m, 4.5A, Priority Power MUX with Seamless Switchover"
+			(at 130.81 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 157.48 656.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 157.48 756.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS2121RUXR"
+			(at 157.48 856.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-TPS2121RUXR"
+			(at 157.48 956.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2121RUXR?qs=qSfuJ%252Bfl%2Fd7dCYiVnUfngQ%3D%3D"
+			(at 157.48 1056.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "TPS2121RUXR"
+			(at 157.48 1156.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps2121ruxr/texas-instruments.html?utm_currency=USD&region=nac"
+			(at 157.48 1256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "2d9d0bfc-57c6-4d53-976c-4cde3f496471")
+		)
+		(pin "1"
+			(uuid "b214b368-bbe1-4493-93e7-3ca944c2978d")
+		)
+		(pin "7"
+			(uuid "9824e245-d0ae-46e1-ab0d-73e4a8896564")
+		)
+		(pin "4"
+			(uuid "7d92c408-a1da-489d-bb10-cd8229f34c64")
+		)
+		(pin "6"
+			(uuid "7cb59403-230a-4e9c-bbdc-bd505fb7e7f5")
+		)
+		(pin "8"
+			(uuid "a90a8684-06f4-41c7-af36-796b997c82b7")
+		)
+		(pin "3"
+			(uuid "ad18034e-37eb-40c0-8d87-d81adce6f090")
+		)
+		(pin "5"
+			(uuid "8adfb959-77fd-4fed-8469-1d9788ee495b")
+		)
+		(pin "9"
+			(uuid "716f9420-19fd-40c5-9e2d-82f9706e8622")
+		)
+		(pin "10"
+			(uuid "f852b7bc-b036-461a-8bdc-081c473f62bc")
+		)
+		(pin "11"
+			(uuid "44a30395-ebba-4186-adad-828212348353")
+		)
+		(pin "12"
+			(uuid "ece4d3a1-8f6b-48e3-83d0-bca2185e330b")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -15895,6 +18140,85 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 135.89 285.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c51f1862-d698-47df-90cf-feaea39bb77f")
+		(property "Reference" "R19"
+			(at 135.89 288.036 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30.1k 1%"
+			(at 135.89 290.576 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS2121RUXR"
+			(at 135.89 287.528 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b41a82d-db5a-4fb5-b084-e029557716fd")
+		)
+		(pin "1"
+			(uuid "248c94f5-65e2-4fcf-ba3b-771fe9e4d433")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 665.48 278.13 180)
 		(unit 1)
 		(body_style 1)
@@ -15967,6 +18291,84 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 285.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9bcd658-14dd-425c-a8b5-36a78fb1117b")
+		(property "Reference" "#PWR0177"
+			(at 106.68 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 290.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a25757bd-3dd6-4e48-9091-bdddac4b9c6e")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -16213,6 +18615,88 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 175.26 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cea171d2-e300-41b5-997f-5f2b7e76ec5b")
+		(property "Reference" "R17"
+			(at 177.8 273.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "237k 1%"
+			(at 177.8 275.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TPS2121RUXR"
+			(at 173.482 274.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6781026-48d9-4559-9daf-e37c43a46882")
+		)
+		(pin "1"
+			(uuid "16980581-22ec-4d7f-8e24-e8b0d44e9c93")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -16616,6 +19100,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 92.71 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9f53305-0be9-4ac8-9073-b7d6a2db1733")
+		(property "Reference" "C20"
+			(at 96.012 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF 16V"
+			(at 96.012 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.6752 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e999a505-7e62-4c79-86e2-e2e6b2a23c82")
+		)
+		(pin "2"
+			(uuid "af30bc2c-cd00-4c1c-8412-3ac94746ca12")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 586.74 425.45 180)
 		(unit 1)
@@ -16688,6 +19253,84 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "TP310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 285.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db9d6984-0981-48f8-b260-d45c8ddfbb26")
+		(property "Reference" "#PWR0182"
+			(at 146.05 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.606 287.528 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b70f2e52-e4cb-473b-baf7-bdccd7192aac")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -17006,6 +19649,166 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 285.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "deffbd7b-f58e-4fac-bdb5-cb52a5bcab1d")
+		(property "Reference" "#PWR0181"
+			(at 132.08 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.636 287.528 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31bb64d6-1f51-4b33-92f1-e83e399725de")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 281.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2a2ed4b-f0dc-4bf7-a59d-64d542aacbb5")
+		(property "Reference" "R16"
+			(at 109.22 280.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "49.9k 1%"
+			(at 109.22 283.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TPS2121RUXR"
+			(at 104.902 281.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "08434e19-9a67-42ed-a18e-23f3e17fd3e2")
+		)
+		(pin "1"
+			(uuid "2e13695c-53ed-4e0e-942e-17dfbc10d771")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "R16")
 					(unit 1)
 				)
 			)
