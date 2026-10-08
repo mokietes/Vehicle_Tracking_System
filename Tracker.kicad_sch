@@ -27848,14 +27848,15 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 33.02 134.62 0)
+		(property "Value" "5V_VEH"
+			(at 35.56 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
