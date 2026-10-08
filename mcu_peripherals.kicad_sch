@@ -7353,16 +7353,6 @@
 		)
 		(uuid "7fc97b6d-778c-4323-97a9-c69ff837c6ef")
 	)
-	(text "I2C_SCL"
-		(exclude_from_sim no)
-		(at 229.87 118.618 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8a851852-f542-403d-a4b8-43e4fe1231ca")
-	)
 	(text "BOOT\n"
 		(exclude_from_sim no)
 		(at 426.72 124.206 0)
@@ -7374,16 +7364,6 @@
 			)
 		)
 		(uuid "8fc4b0e7-46fb-4011-8dfa-36699fe2bb24")
-	)
-	(text "I2C_SDA"
-		(exclude_from_sim no)
-		(at 229.87 112.268 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9655c785-6905-41a6-b934-1bca2d2e553b")
 	)
 	(text "TEMP SENSOR"
 		(exclude_from_sim no)
@@ -11048,6 +11028,16 @@
 		)
 		(uuid "30dcae36-60d5-4d35-8a41-66fe52e843b5")
 	)
+	(label "I2C_SDA"
+		(at 224.79 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "383263c2-0c42-41ca-a994-41d86bf13831")
+	)
 	(label "CAN1_TXD"
 		(at 394.97 154.94 0)
 		(effects
@@ -11177,6 +11167,16 @@
 			(justify left bottom)
 		)
 		(uuid "da83ed15-2f5e-4d75-8ad8-3c8413bf02ae")
+	)
+	(label "I2C_SCL"
+		(at 224.79 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5ba44f3-30d8-49b7-a93f-952a1b223f5a")
 	)
 	(label "USB_DN"
 		(at 394.97 147.32 0)
@@ -19655,8 +19655,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92227ca1-7c15-4b1f-96c1-cc2e5d6296bb")
-		(property "Reference" "R38"
-			(at 342.9 149.606 90)
+		(property "Reference" "R209"
+			(at 341.63 149.606 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19667,7 +19667,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 342.9 152.146 90)
+			(at 342.9 151.638 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19719,7 +19719,7 @@
 		(instances
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/378094db-8f3e-4510-9f4d-07bbb8577682"
-					(reference "R38")
+					(reference "R209")
 					(unit 1)
 				)
 			)
@@ -20012,7 +20012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "983b0e00-ace3-4390-a1cf-265bebf2371e")
-		(property "Reference" "T1"
+		(property "Reference" "TP201"
 			(at 322.58 51.3079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20073,7 +20073,7 @@
 		(instances
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/378094db-8f3e-4510-9f4d-07bbb8577682"
-					(reference "T1")
+					(reference "TP201")
 					(unit 1)
 				)
 			)
