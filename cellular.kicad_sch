@@ -7867,7 +7867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100pF"
 			(at 202.438 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10254,7 +10254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150nF"
+		(property "Value" "150pF"
 			(at 191.008 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12819,7 +12819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68nF"
+		(property "Value" "68pF"
 			(at 215.138 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13136,7 +13136,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10pF"
 			(at 241.808 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13694,7 +13694,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF"
+		(property "Value" "33pF"
 			(at 227.838 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)

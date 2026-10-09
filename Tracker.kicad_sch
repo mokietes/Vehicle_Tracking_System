@@ -26580,7 +26580,7 @@
 				)
 			)
 		)
-		(property "Value" "VSYS"
+		(property "Value" "3V3_AON"
 			(at 279.654 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
