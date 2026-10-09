@@ -4961,6 +4961,12 @@
 		(uuid "2d448e00-fe9f-4736-a099-b7b02484f914")
 	)
 	(junction
+		(at 224.79 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3558ade9-f61a-4ef7-bdb7-fddfba9c76dd")
+	)
+	(junction
 		(at 187.96 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4971,6 +4977,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43a717f4-c6b8-4e4e-8a2f-f933cb58f525")
+	)
+	(junction
+		(at 199.39 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bfc8242-2bf7-42bb-b4cc-88530e07dd84")
 	)
 	(junction
 		(at 67.31 144.78)
@@ -4997,16 +5009,40 @@
 		(uuid "54f61aa2-c366-453a-aa95-d4db2ad5f23e")
 	)
 	(junction
+		(at 176.53 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67e38ecf-81dc-4665-ad81-f3ec2cb53b0b")
+	)
+	(junction
 		(at 191.77 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68659f79-c3b7-442b-9737-188a6f8cbedd")
 	)
 	(junction
+		(at 187.96 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ee46965-057a-4ab9-8879-c343b0b2ec75")
+	)
+	(junction
+		(at 212.09 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75a80d0d-dc01-4782-9741-9cc64185f165")
+	)
+	(junction
 		(at 191.77 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "775cc43a-bcd9-4c59-8ea0-bd1353a7625b")
+	)
+	(junction
+		(at 238.76 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "797d1d04-a09e-41ba-869e-e57df2877342")
 	)
 	(junction
 		(at 227.33 78.74)
@@ -5211,6 +5247,16 @@
 			(type default)
 		)
 		(uuid "03af91aa-6c35-4b44-95fb-0c508781cc38")
+	)
+	(wire
+		(pts
+			(xy 162.56 27.94) (xy 176.53 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c6eb25-68a9-49a8-bd75-bbd5c094b672")
 	)
 	(wire
 		(pts
@@ -5714,16 +5760,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 95.25) (xy 67.31 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "545674e6-672d-4946-af0b-fb13e4a4d9c7")
-	)
-	(wire
-		(pts
 			(xy 191.77 73.66) (xy 193.04 73.66)
 		)
 		(stroke
@@ -5751,6 +5787,16 @@
 			(type default)
 		)
 		(uuid "5b419c76-ae3f-4009-95d8-eb3561eaf01e")
+	)
+	(wire
+		(pts
+			(xy 212.09 27.94) (xy 224.79 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c35bc60-fedf-43c1-bf9b-55aead69c594")
 	)
 	(wire
 		(pts
@@ -6234,6 +6280,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 27.94) (xy 238.76 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad242d4c-ee0b-49d4-9a3e-ac4a2d51e204")
+	)
+	(wire
+		(pts
 			(xy 172.72 81.28) (xy 193.04 81.28)
 		)
 		(stroke
@@ -6464,16 +6520,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 96.52) (xy 67.31 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd1b3a4b-551b-482d-951d-433765ad19b6")
-	)
-	(wire
-		(pts
 			(xy 82.55 66.04) (xy 113.03 66.04)
 		)
 		(stroke
@@ -6484,6 +6530,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 96.52) (xy 67.31 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf45488-a763-4763-91df-23954340e61c")
+	)
+	(wire
+		(pts
 			(xy 46.99 66.04) (xy 52.07 66.04)
 		)
 		(stroke
@@ -6491,6 +6547,16 @@
 			(type default)
 		)
 		(uuid "df366443-40e9-4bc0-8c29-d21371b9e069")
+	)
+	(wire
+		(pts
+			(xy 199.39 27.94) (xy 212.09 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30fca97-35cc-48fe-a97a-76ef979bd68d")
 	)
 	(wire
 		(pts
@@ -6544,6 +6610,26 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 27.94) (xy 199.39 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef20d3f4-c2ac-4150-b9fb-baa955bfb0e3")
+	)
+	(wire
+		(pts
+			(xy 176.53 27.94) (xy 187.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f141e58f-fc10-43ca-b24e-3a0db55e569f")
+	)
+	(wire
+		(pts
 			(xy 50.8 129.54) (xy 50.8 127)
 		)
 		(stroke
@@ -6591,6 +6677,16 @@
 			(type default)
 		)
 		(uuid "f6396467-39d1-4260-84a5-3343c55f4de0")
+	)
+	(wire
+		(pts
+			(xy 238.76 29.21) (xy 238.76 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77aec69-3cf5-4ce4-9c47-73d8bb94459a")
 	)
 	(wire
 		(pts
@@ -8152,83 +8248,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 199.39 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27032615-f7a8-4894-b309-92c580f69415")
-		(property "Reference" "#PWR0116"
-			(at 199.39 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 202.438 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 199.39 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ba2282e-1fc8-4558-82e9-6e98d14e20c6")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/14966949-e78d-448f-9d65-c3e7a44dd897"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 189.23 63.5 0)
 		(unit 1)
@@ -8328,7 +8347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "47nF"
 			(at 179.578 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8626,84 +8645,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3662b8f3-7d19-466d-be28-93fb697bf63f")
-		(property "Reference" "#PWR0118"
-			(at 224.79 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 227.838 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 224.79 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42d67d1c-eb6d-47dc-8ece-4f239c5c5990")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/14966949-e78d-448f-9d65-c3e7a44dd897"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 67.31 97.79 0)
+		(at 67.31 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8713,7 +8655,7 @@
 		(dnp no)
 		(uuid "37ee7f0a-5d7a-495f-ab12-c26baea6e2a3")
 		(property "Reference" "#PWR085"
-			(at 67.31 104.14 0)
+			(at 67.31 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8724,7 +8666,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.754 99.822 0)
+			(at 63.754 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8734,7 +8676,7 @@
 			)
 		)
 		(property "Footprint" "SOP65P640X120-16N"
-			(at 67.31 97.79 0)
+			(at 67.31 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8745,7 +8687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 97.79 0)
+			(at 67.31 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8756,7 +8698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 97.79 0)
+			(at 67.31 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9485,83 +9427,6 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/14966949-e78d-448f-9d65-c3e7a44dd897"
 					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 162.56 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4a90a1a0-fb19-44ea-89a7-9c1ca7859e59")
-		(property "Reference" "#PWR0113"
-			(at 162.56 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.608 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 162.56 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "480c9ddf-cee0-48c7-a98b-7a4c79ec841c")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/14966949-e78d-448f-9d65-c3e7a44dd897"
-					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -10389,7 +10254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "150nF"
 			(at 191.008 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10471,7 +10336,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "220nF"
 			(at 165.608 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11008,84 +10873,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "684f68c1-9c56-4c77-93f7-7937da4e993f")
-		(property "Reference" "#PWR0115"
-			(at 187.96 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.008 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 187.96 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7435b6a-da8e-459f-a3f8-23075c6b2d0e")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/14966949-e78d-448f-9d65-c3e7a44dd897"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 238.76 27.94 0)
+		(at 238.76 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11095,7 +10883,7 @@
 		(dnp no)
 		(uuid "6e2d4ab6-1fe9-44b6-997c-74e0c3d182a5")
 		(property "Reference" "#PWR0119"
-			(at 238.76 34.29 0)
+			(at 238.76 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11106,7 +10894,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.808 30.48 0)
+			(at 241.808 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11116,7 +10904,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 238.76 27.94 0)
+			(at 238.76 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11127,7 +10915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 27.94 0)
+			(at 238.76 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11138,7 +10926,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 27.94 0)
+			(at 238.76 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13031,7 +12819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "68nF"
 			(at 215.138 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13250,83 +13038,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b4dc3038-7091-4204-abcf-4594debf01da")
-		(property "Reference" "#PWR0117"
-			(at 212.09 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.138 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 212.09 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f42192e-635a-4479-865f-fd4c41ab7769")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/14966949-e78d-448f-9d65-c3e7a44dd897"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 176.53 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -13425,7 +13136,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10nF"
 			(at 241.808 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13983,7 +13694,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "33nF"
 			(at 227.838 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15068,83 +14779,6 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/14966949-e78d-448f-9d65-c3e7a44dd897"
 					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9727d59-b82c-48cb-b081-4d1eb8f66da5")
-		(property "Reference" "#PWR0114"
-			(at 176.53 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.578 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 176.53 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "236ed85a-60f4-411c-843a-5e9305425d91")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/14966949-e78d-448f-9d65-c3e7a44dd897"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
