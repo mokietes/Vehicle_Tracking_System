@@ -7714,7 +7714,7 @@
 		(uuid "6e6e2d63-8bd9-45c2-8f68-24dde0571b44")
 	)
 	(junction
-		(at 330.2 355.6)
+		(at 323.85 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ef1660a-8fcd-4582-b30d-91d3ca051e63")
@@ -8245,7 +8245,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 355.6) (xy 330.2 355.6)
+			(xy 313.69 355.6) (xy 336.55 355.6)
 		)
 		(stroke
 			(width 0)
@@ -11205,16 +11205,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 355.6) (xy 336.55 355.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fde08994-47a7-4635-88f0-4c26e2a38f1e")
-	)
-	(wire
-		(pts
 			(xy 293.37 92.71) (xy 300.99 92.71)
 		)
 		(stroke
@@ -12286,7 +12276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOP65P640X120-16N"
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
 			(at 537.21 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -12751,7 +12741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 310.8452 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13337,7 +13327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 381.9652 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13590,7 +13580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Bourns_Horizontal_PEL12D-2x18F-Sxxxx"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 246.888 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -14354,7 +14344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 181.3052 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -14607,7 +14597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 389.5852 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -15030,7 +15020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 49.53 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -15245,7 +15235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 68.58 251.968 90)
 			(hide yes)
 			(show_name no)
@@ -15882,7 +15872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 345.7448 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -15970,7 +15960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 385.7752 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -16058,7 +16048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 360.9848 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -17006,7 +16996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 416.2552 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -18284,7 +18274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 329.2348 330.2 0)
 			(hide yes)
 			(show_name no)
@@ -18459,7 +18449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 436.5752 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -18797,7 +18787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 514.0452 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -18967,7 +18957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 450.5452 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -19902,7 +19892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 199.6948 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -20078,7 +20068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.3852 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -21234,7 +21224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 494.9952 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -22172,7 +22162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10nF"
 			(at 341.122 331.978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22183,7 +22173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 343.2048 330.2 0)
 			(hide yes)
 			(show_name no)
@@ -22270,7 +22260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 172.4152 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -22697,7 +22687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 327.9648 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -22869,7 +22859,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-XHP50_3V_HighDensity"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 453.39 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -23523,7 +23513,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 330.2 355.6 0)
+		(at 323.85 355.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23533,7 +23523,7 @@
 		(dnp no)
 		(uuid "c0c8aad2-c9d5-4305-a3ed-83f74745a6ac")
 		(property "Reference" "TP403"
-			(at 331.47 350.52 0)
+			(at 325.12 350.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23544,7 +23534,7 @@
 			)
 		)
 		(property "Value" "TP 403"
-			(at 331.47 353.06 0)
+			(at 325.12 353.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23555,7 +23545,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 335.28 355.6 0)
+			(at 328.93 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23566,7 +23556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 355.6 0)
+			(at 328.93 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23577,7 +23567,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 330.2 355.6 0)
+			(at 323.85 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24311,7 +24301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 202.8952 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -24568,7 +24558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.9348 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -25151,7 +25141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 296.8752 63.5 0)
 			(hide yes)
 			(show_name no)

@@ -14683,7 +14683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TPS2121RUXR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 61.722 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -15105,7 +15105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TPS2121RUXR"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 153.67 142.748 90)
 			(hide yes)
 			(show_name no)
@@ -16128,7 +16128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 130.5052 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -16208,7 +16208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XFL2010"
 			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16476,7 +16476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 392.1252 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16954,7 +16954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 437.8452 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -17194,7 +17194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 318.4652 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -17825,7 +17825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 448.31 94.2848 0)
 			(hide yes)
 			(show_name no)
@@ -17986,7 +17986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 514.0452 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -18144,7 +18144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 522.2748 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -18225,7 +18225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 445.4652 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -20407,7 +20407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Bourns_Horizontal_PEL12D-2x18F-Sxxxx"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 254.762 90)
 			(hide yes)
 			(show_name no)
@@ -21110,7 +21110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.5952 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -21348,7 +21348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 49.2252 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -21506,7 +21506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 359.1052 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -21759,7 +21759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TPS2121RUXR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 47.752 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -22049,7 +22049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 468.3252 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -22527,7 +22527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 372.4148 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -22922,7 +22922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 68.2752 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -23081,7 +23081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 300.6852 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -23633,7 +23633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 64.4652 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -23789,7 +23789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 339.3948 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -23870,7 +23870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 343.8652 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -23949,7 +23949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 416.8648 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -24266,7 +24266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
 			(at 398.78 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -24432,7 +24432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 300.6852 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -24672,7 +24672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 135.5852 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -25150,7 +25150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 144.4752 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -26013,7 +26013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
 			(at 162.2552 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -26409,7 +26409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 325.12 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -26803,7 +26803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TPS2121RUXR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.332 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -27641,7 +27641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 361.6452 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -27723,7 +27723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 500.0752 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -28119,7 +28119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 172.4152 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -28354,7 +28354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 354.6348 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -28668,7 +28668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 401.6248 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -29217,7 +29217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 506.73 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -29686,7 +29686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TPS2121RUXR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 61.722 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -30215,7 +30215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 261.62 245.4148 0)
 			(hide yes)
 			(show_name no)
@@ -30613,7 +30613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 483.5652 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -30773,7 +30773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TPS2121RUXR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.74 170.688 90)
 			(hide yes)
 			(show_name no)
@@ -30934,7 +30934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 153.3652 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -31247,7 +31247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN50P400X400X80-25N-D"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 322.58 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -31337,7 +31337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 520.7 162.8648 0)
 			(hide yes)
 			(show_name no)
@@ -31729,7 +31729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TPS2121RUXR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.332 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -31810,7 +31810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 80.9752 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -31968,7 +31968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 439.42 171.7548 0)
 			(hide yes)
 			(show_name no)
@@ -32049,7 +32049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 47.9552 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -32128,7 +32128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 489.2548 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -32209,7 +32209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 239.7252 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -32288,7 +32288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 387.6548 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -32369,7 +32369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 227.0252 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -32448,7 +32448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 441.6552 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -32843,7 +32843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 537.5148 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -32924,7 +32924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TPS2121RUXR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.072 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -33241,7 +33241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 428.9552 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -33823,7 +33823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TPS2121RUXR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 47.752 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -34059,7 +34059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 509.5748 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -34140,7 +34140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 228.2952 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -34222,7 +34222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TPS2121RUXR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.332 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -34536,7 +34536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN65P400X400X100-17N-D"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 225.7552 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -34695,7 +34695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TPS2121RUXR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.332 82.55 90)
 			(hide yes)
 			(show_name no)
