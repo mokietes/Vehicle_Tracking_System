@@ -5797,6 +5797,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:TPS3840DL30DBVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC1"
+				(at 17.78 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS3840DL30DBVR"
+				(at 17.78 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 31.75 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/TPS3840"
+				(at 31.75 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Nanopower high-input voltage supervisor with manual reset and programmable-reset time delay"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.45"
+				(at 31.75 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 31.75 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TPS3840DL30DBVR"
+				(at 31.75 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "595-TPS3840DL30DBVR"
+				(at 31.75 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS3840DL30DBVR?qs=%252B6g0mu59x7JM%252BwaDI4DWwQ%3D%3D"
+				(at 31.75 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "TPS3840DL30DBVR"
+				(at 31.75 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps3840dl30dbvr/texas-instruments.html?utm_currency=USD&region=nac"
+				(at 31.75 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "TPS3840DL30DBVR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 30.48 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~{MR_}/_NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "CT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:W25N01GVZEIG"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6531,256 +6781,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPS3840DL42DBVR:TPS3840DL42DBVR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U203"
-				(at 16.002 4.318 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPS3840DL42DBVR"
-				(at 16.764 -9.652 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SamacSys_Parts:SOT95P280X145-6N"
-				(at 29.21 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.arrow.com/en/products/tps3840dl42dbvr/texas-instruments"
-				(at 29.21 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Processor Supervisor 4.2V 1 Active Low/Open Drain 5-Pin SOT-23 T/R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.45"
-				(at 29.21 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 29.21 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TPS3840DL42DBVR"
-				(at 29.21 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 29.21 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 29.21 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" "TPS3840DL42DBVR"
-				(at 29.21 -894.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps3840dl42dbvr/texas-instruments?region=europe"
-				(at 29.21 -994.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "TPS3840DL42DBVR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 27.94 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 0 180)
-					(length 5.08)
-					(name "~{MR}/NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 33.02 -2.54 180)
-					(length 5.08)
-					(name "CT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -7391,16 +7391,6 @@
 		)
 		(uuid "a45175a2-6b59-48c4-addd-5ba621857219")
 	)
-	(text "TEMP_ALERT_N"
-		(exclude_from_sim no)
-		(at 64.516 153.924 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b27ba2c3-3a16-4ea4-b296-6d85ff5b1d4d")
-	)
 	(text "IMU_INT2"
 		(exclude_from_sim no)
 		(at 168.656 349.504 0)
@@ -7454,6 +7444,12 @@
 		(uuid "01255192-0b61-4c1d-bf8c-cc9aabe25358")
 	)
 	(junction
+		(at 494.03 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "043d97b6-6534-4cd3-8022-6ae66c1183ba")
+	)
+	(junction
 		(at 220.98 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7464,6 +7460,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08d331ad-6991-4ad6-bc3b-7d7be788a223")
+	)
+	(junction
+		(at 182.88 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b4db47d-c8a5-46d6-9995-aa794d8e1c43")
 	)
 	(junction
 		(at 346.71 215.9)
@@ -7832,6 +7834,12 @@
 		(uuid "a14c2dca-a720-49ce-bba8-660b350dcbc1")
 	)
 	(junction
+		(at 73.66 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a37f2ecc-7d43-4dd9-bc03-8094f6ef15c4")
+	)
+	(junction
 		(at 379.73 290.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8018,6 +8026,12 @@
 		(uuid "f30242c2-c1fc-447e-bc44-567887959c67")
 	)
 	(junction
+		(at 477.52 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f478a015-4e11-4bb8-9d2e-4676ed3b965f")
+	)
+	(junction
 		(at 196.85 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8067,7 +8081,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 87.63) (xy 71.12 87.63)
+			(xy 76.2 87.63) (xy 73.66 87.63)
 		)
 		(stroke
 			(width 0)
@@ -8204,6 +8218,16 @@
 			(type default)
 		)
 		(uuid "0d605e58-ed6e-40c1-a086-c6c430edb315")
+	)
+	(wire
+		(pts
+			(xy 513.08 218.44) (xy 494.03 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e91de6e-8e98-400f-a4d0-5f6277cf4049")
 	)
 	(wire
 		(pts
@@ -8587,6 +8611,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 87.63) (xy 233.68 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a712cdb-329a-4da4-b134-34c504ec563a")
+	)
+	(wire
+		(pts
 			(xy 388.62 273.05) (xy 427.99 273.05)
 		)
 		(stroke
@@ -8804,6 +8838,16 @@
 			(type default)
 		)
 		(uuid "3b9e7326-cca3-4337-9722-fd1587c05487")
+	)
+	(wire
+		(pts
+			(xy 73.66 87.63) (xy 71.12 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd2be86-e96f-49ab-a2b4-22ececda9e17")
 	)
 	(wire
 		(pts
@@ -9084,6 +9128,16 @@
 			(type default)
 		)
 		(uuid "50fb0fe2-57d2-4d0e-803a-fdcbfa39766f")
+	)
+	(wire
+		(pts
+			(xy 477.52 218.44) (xy 494.03 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c7e26b-8519-4af6-b0c7-06895409e053")
 	)
 	(wire
 		(pts
@@ -10277,6 +10331,16 @@
 	)
 	(wire
 		(pts
+			(xy 477.52 219.71) (xy 477.52 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfbb1f8f-e636-4140-a5d1-0855b4ef6762")
+	)
+	(wire
+		(pts
 			(xy 295.91 73.66) (xy 394.97 73.66)
 		)
 		(stroke
@@ -10887,7 +10951,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 87.63) (xy 233.68 87.63)
+			(xy 137.16 87.63) (xy 182.88 87.63)
 		)
 		(stroke
 			(width 0)
@@ -10954,6 +11018,16 @@
 			(type default)
 		)
 		(uuid "eefc56d0-7755-4431-b12a-e484fa19cdaa")
+	)
+	(wire
+		(pts
+			(xy 513.08 213.36) (xy 513.08 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03b57a1-f0e8-466e-b744-e7ab6d962c08")
 	)
 	(wire
 		(pts
@@ -11537,6 +11611,16 @@
 			(justify left bottom)
 		)
 		(uuid "ef204ec4-9c9c-434f-855d-68a775a2097b")
+	)
+	(label "TEMP_ALERT_N"
+		(at 72.39 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa5c45b7-91e9-4209-a4e0-35426583eec6")
 	)
 	(global_label "VBUS_USB"
 		(shape output)
@@ -12294,84 +12378,6 @@
 			(project "page_2"
 				(path "/b70b23fc-d90a-4374-8ce9-83c1fd111d3f"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 388.62 273.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00d60241-eb9c-42fa-b6ab-ed8a0e6abbc2")
-		(property "Reference" "#FLG08"
-			(at 388.62 271.145 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 388.62 267.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 388.62 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 388.62 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c019139d-3902-45db-8c01-81c2983c0602")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/378094db-8f3e-4510-9f4d-07bbb8577682"
-					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -15310,90 +15316,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 494.03 218.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3432920c-dd81-412a-b097-70c17379d6f5")
-		(property "Reference" "#PWR056"
-			(at 494.03 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 494.03 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 494.03 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 494.03 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 494.03 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "678fb290-7bbb-41b3-bfba-2775f2378a17")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/378094db-8f3e-4510-9f4d-07bbb8577682"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-			(project "page_2"
-				(path "/b70b23fc-d90a-4374-8ce9-83c1fd111d3f"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 349.25 128.27 90)
 		(unit 1)
@@ -17317,90 +17239,6 @@
 			(project "page_2"
 				(path "/b70b23fc-d90a-4374-8ce9-83c1fd111d3f"
 					(reference "TP402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 513.08 213.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cefdc1e-208c-4de8-a594-b6f8e165126d")
-		(property "Reference" "#PWR054"
-			(at 513.08 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 513.08 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 513.08 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 513.08 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 513.08 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26000d42-883d-4b7d-bfab-f7268ceb2c70")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/378094db-8f3e-4510-9f4d-07bbb8577682"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-			(project "page_2"
-				(path "/b70b23fc-d90a-4374-8ce9-83c1fd111d3f"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -19693,6 +19531,181 @@
 			(project "page_2"
 				(path "/b70b23fc-d90a-4374-8ce9-83c1fd111d3f"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TPS3840DL30DBVR")
+		(at 73.66 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "80dfb88c-2425-41eb-854f-ba39d802e63b")
+		(property "Reference" "U14"
+			(at 91.44 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS3840DL30DBVR"
+			(at 91.44 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 105.41 182.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/TPS3840"
+			(at 105.41 282.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Nanopower high-input voltage supervisor with manual reset and programmable-reset time delay"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 105.41 482.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 105.41 582.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS3840DL30DBVR"
+			(at 105.41 682.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-TPS3840DL30DBVR"
+			(at 105.41 782.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS3840DL30DBVR?qs=%252B6g0mu59x7JM%252BwaDI4DWwQ%3D%3D"
+			(at 105.41 882.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "TPS3840DL30DBVR"
+			(at 105.41 982.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps3840dl30dbvr/texas-instruments.html?utm_currency=USD&region=nac"
+			(at 105.41 1082.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "a50a1a8d-24dc-4dcf-91de-54edbe2eeb31")
+		)
+		(pin "1"
+			(uuid "571e79ad-3265-49ec-95bb-f35b17e90488")
+		)
+		(pin "2"
+			(uuid "4fc24e07-77b3-4420-821d-c0ecd4d3bf1b")
+		)
+		(pin "4"
+			(uuid "85a62774-10f6-4b75-b8f2-060a03ecef49")
+		)
+		(pin "3"
+			(uuid "3451d897-7e05-4174-991e-81f9804cabae")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/378094db-8f3e-4510-9f4d-07bbb8577682"
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -23107,7 +23120,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 477.52 218.44 0)
+		(at 477.52 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23118,7 +23131,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdd8d959-55d4-477f-8dd0-cbdb4958ef8a")
 		(property "Reference" "#PWR0195"
-			(at 477.52 224.79 0)
+			(at 477.52 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23129,7 +23142,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 477.52 223.52 0)
+			(at 477.52 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23139,7 +23152,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 477.52 218.44 0)
+			(at 477.52 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23150,7 +23163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 477.52 218.44 0)
+			(at 477.52 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23161,7 +23174,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 477.52 218.44 0)
+			(at 477.52 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25667,187 +25680,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TPS3840DL42DBVR:TPS3840DL42DBVR")
-		(at 109.22 87.63 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "d737f62f-1ed2-41e4-ba32-f2fc2e35d05f")
-		(property "Reference" "U14"
-			(at 93.218 83.312 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS3840DL42DBVR"
-			(at 92.456 97.282 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:SOT95P280X145-6N"
-			(at 80.01 182.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/tps3840dl42dbvr/texas-instruments"
-			(at 80.01 282.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Processor Supervisor 4.2V 1 Active Low/Open Drain 5-Pin SOT-23 T/R"
-			(at 109.22 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.45"
-			(at 80.01 482.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 80.01 582.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS3840DL42DBVR"
-			(at 80.01 682.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 80.01 782.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 80.01 882.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "TPS3840DL42DBVR"
-			(at 80.01 982.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps3840dl42dbvr/texas-instruments?region=europe"
-			(at 80.01 1082.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "d9cd6e4f-2a34-46ba-aeaa-7203475e836d")
-		)
-		(pin "4"
-			(uuid "477be4ef-6398-40d3-a760-17a5b0e6bc1a")
-		)
-		(pin "5"
-			(uuid "e73aadb9-0b1e-42ff-87c9-dbbd3ea13b99")
-		)
-		(pin "2"
-			(uuid "62a7d0ea-41f2-4be8-90bc-a552a305b415")
-		)
-		(pin "3"
-			(uuid "14c6ec29-ee5e-48ce-9ce3-6d505f934515")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/378094db-8f3e-4510-9f4d-07bbb8577682"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-			(project "page_2"
-				(path "/b70b23fc-d90a-4374-8ce9-83c1fd111d3f"
-					(reference "U203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 320.04 327.66 0)
 		(unit 1)
@@ -27168,6 +27000,86 @@
 			(project "page_2"
 				(path "/b70b23fc-d90a-4374-8ce9-83c1fd111d3f"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef2ccb04-461e-44cf-9705-e5d0bc73ada9")
+		(property "Reference" "TP14"
+			(at 185.42 84.3279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 184.1499 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 187.96 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eee18408-2d1e-4074-a3fe-488392d06663")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/378094db-8f3e-4510-9f4d-07bbb8577682"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
