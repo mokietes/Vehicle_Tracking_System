@@ -657,7 +657,7 @@
     "top_level_sheets": [
       {
         "filename": "Tracker.kicad_sch",
-        "name": "Root",
+        "name": "POWER",
         "uuid": "586d1ea1-b017-4713-987c-545d658f6cc8"
       }
     ],
@@ -667,7 +667,7 @@
   "sheets": [
     [
       "586d1ea1-b017-4713-987c-545d658f6cc8",
-      "Root"
+      "POWER"
     ],
     [
       "378094db-8f3e-4510-9f4d-07bbb8577682",
