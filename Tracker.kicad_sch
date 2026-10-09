@@ -9012,6 +9012,12 @@
 		(uuid "3ed10d0b-09f2-4369-8d63-64634b3162dc")
 	)
 	(junction
+		(at 86.36 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f3edaa8-1935-415c-97a1-00d1d233af64")
+	)
+	(junction
 		(at 485.14 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9484,6 +9490,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9eaacd9-9492-4cf9-b26d-6982096fabef")
+	)
+	(junction
+		(at 279.4 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa247814-62ac-4249-878d-5c5b8348060d")
 	)
 	(junction
 		(at 485.14 153.67)
@@ -10159,6 +10171,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 90.17) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1859e538-d3d6-4bf3-b273-39ca7a7c0941")
+	)
+	(wire
+		(pts
 			(xy 229.87 331.47) (xy 237.49 331.47)
 		)
 		(stroke
@@ -10196,16 +10218,6 @@
 			(type default)
 		)
 		(uuid "1932bfda-9cba-4233-ba55-4a47462b2c12")
-	)
-	(wire
-		(pts
-			(xy 76.2 88.9) (xy 77.47 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b413853-9d74-4160-b5da-35c0d187eed8")
 	)
 	(wire
 		(pts
@@ -10479,16 +10491,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 194.31) (xy 284.48 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f773534-dd93-49d3-b475-e5d1bf91e82f")
-	)
-	(wire
-		(pts
 			(xy 63.5 140.97) (xy 63.5 142.24)
 		)
 		(stroke
@@ -10536,6 +10538,16 @@
 			(type default)
 		)
 		(uuid "332f1ebd-2639-4b83-b0ca-2939893079df")
+	)
+	(wire
+		(pts
+			(xy 279.4 194.31) (xy 289.56 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3511d4c8-cf6a-4ce2-be9a-fa66a38a9f89")
 	)
 	(wire
 		(pts
@@ -10616,6 +10628,16 @@
 			(type default)
 		)
 		(uuid "397b1068-5ce5-443a-9401-7a0d2d4ad4ac")
+	)
+	(wire
+		(pts
+			(xy 83.82 88.9) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bcc32f2-8231-419c-92f6-5424eafb36f2")
 	)
 	(wire
 		(pts
@@ -10826,16 +10848,6 @@
 			(type default)
 		)
 		(uuid "4ea7d242-ec37-4f1a-921c-728577aa5616")
-	)
-	(wire
-		(pts
-			(xy 85.09 88.9) (xy 86.36 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ee2a12c-85f1-4ea2-b7fc-34004b9c731b")
 	)
 	(wire
 		(pts
@@ -11569,7 +11581,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 194.31) (xy 275.59 194.31)
+			(xy 275.59 194.31) (xy 279.4 194.31)
 		)
 		(stroke
 			(width 0)
@@ -12176,6 +12188,16 @@
 			(type default)
 		)
 		(uuid "ada6d663-43ce-45e3-b84d-715a795ad45b")
+	)
+	(wire
+		(pts
+			(xy 69.85 93.98) (xy 69.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4dce72-a416-49ec-839d-052c300a589f")
 	)
 	(wire
 		(pts
@@ -13782,6 +13804,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "BG95_PG"
+		(shape output)
+		(at 83.82 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d621fca-57c2-4cd9-a2ee-1802cf1a8828")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.3682 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -17872,7 +17918,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "2.2k"
 			(at 333.756 267.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20016,85 +20062,6 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "#PWR0153")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 81.28 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4681326b-f5c4-47b1-bdb3-78e97392ebf3")
-		(property "Reference" "R71"
-			(at 81.788 86.868 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 81.28 88.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 90.678 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 81.28 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a5e01509-0988-4cd4-ab67-6970c49dcad1")
-		)
-		(pin "1"
-			(uuid "6fd74f9f-c504-491d-b47a-f00bd87eaa22")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
-					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -26592,8 +26559,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 279.4 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f6a1c51-37dd-4fa2-b4d7-a2564a4e730a")
+		(property "Reference" "#PWR0238"
+			(at 279.4 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 279.654 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 279.4 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 279.4 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9661c18f-38cf-44f9-8a08-da60faca06ff")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "#PWR0238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 76.2 88.9 0)
+		(at 86.36 90.17 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26603,7 +26647,7 @@
 		(dnp no)
 		(uuid "8f6cdad4-6a25-4d79-9e44-53133bd8fa8c")
 		(property "Reference" "TP208"
-			(at 73.406 83.82 0)
+			(at 89.154 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26614,7 +26658,7 @@
 			)
 		)
 		(property "Value" "TP 208"
-			(at 66.802 88.138 0)
+			(at 95.758 90.932 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26626,7 +26670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 88.9 0)
+			(at 81.28 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26637,7 +26681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 88.9 0)
+			(at 81.28 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26648,7 +26692,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 76.2 88.9 0)
+			(at 86.36 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27751,7 +27795,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 88.9 0)
+		(at 69.85 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27762,7 +27806,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cc39279-bc13-42ba-8650-8199a6cc48ac")
 		(property "Reference" "#PWR0235"
-			(at 69.85 95.25 0)
+			(at 69.85 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27773,7 +27817,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 93.98 0)
+			(at 69.85 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27783,7 +27827,7 @@
 			)
 		)
 		(property "Footprint" "DQG0008A"
-			(at 69.85 88.9 0)
+			(at 69.85 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27794,7 +27838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 88.9 0)
+			(at 69.85 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27805,7 +27849,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 88.9 0)
+			(at 69.85 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32713,7 +32757,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 85.09 0)
+		(at 69.85 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32723,7 +32767,7 @@
 		(dnp no)
 		(uuid "dd098317-6e3d-44ee-8761-324b8ec07d85")
 		(property "Reference" "R37"
-			(at 64.008 85.09 0)
+			(at 64.008 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32734,7 +32778,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 63.246 86.868 0)
+			(at 63.246 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32745,7 +32789,7 @@
 			)
 		)
 		(property "Footprint" "TPS2121RUXR"
-			(at 68.072 85.09 90)
+			(at 68.072 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32756,7 +32800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 85.09 0)
+			(at 69.85 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32767,7 +32811,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 69.85 85.09 0)
+			(at 69.85 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34005,6 +34049,85 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 279.4 190.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e61b7646-6336-48d7-a26f-e1c7ac5811f5")
+		(property "Reference" "R70"
+			(at 283.21 188.976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 283.21 191.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.178 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 279.4 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f2c1e4be-99cf-452f-8055-b41a20c50373")
+		)
+		(pin "1"
+			(uuid "776ff145-88ea-4f81-b60d-09f0023afb85")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -35670,85 +35793,6 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 280.67 194.31 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fdfb25e4-6763-4ebd-8b62-c042f8aba2c5")
-		(property "Reference" "R70"
-			(at 285.242 193.294 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 280.67 194.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.67 196.088 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.67 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 280.67 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ce698ce7-0712-4ffd-bc7f-8879db5e0712")
-		)
-		(pin "1"
-			(uuid "7750255c-ce91-4739-b516-aeff9e55d278")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
-					(reference "R70")
 					(unit 1)
 				)
 			)
