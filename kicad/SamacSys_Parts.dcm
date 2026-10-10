@@ -1,0 +1,141 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP TPS22918TDBVTQ1
+D 5.5V, 2A, 52m Automotive High-Side Load Switch with Adjustable Rise Time & Quick Output Discharge
+K
+F http://www.ti.com/lit/ds/symlink/tps22918-q1.pdf
+$ENDCMP
+#
+$CMP SN74AXC4T245QPWRQ1
+D Translation - Voltage Levels
+K
+F https://www.ti.com/lit/ds/symlink/sn74axch4t245.pdf
+$ENDCMP
+#
+$CMP W25N01GVZEIG
+D 1Gb QspiNAND Flash 104MHz SON8
+K
+F https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25N01GVZEIG&type=datasheet
+$ENDCMP
+#
+$CMP ASM330LHHTR
+D STMICROELECTRONICS - ASM330LHHTR - MEMS MOD, 3-AXIS GYROSCOPE/ACCELEROMETER
+K
+F https://www.st.com/resource/en/datasheet/asm330lhh.pdf
+$ENDCMP
+#
+$CMP ASM330LHHXG1TR
+D Accelerometer, Gyroscope, 6 Axis Sensor I2C, I3C, SPI Output, 1.3mA, -40C ~ 125C
+K
+F https://www.st.com/resource/en/datasheet/asm330lhhxg1.pdf
+$ENDCMP
+#
+$CMP SIM8060-6-1-14-00-A
+D 6 Position Card Connector NANO SIM Surface Mount, Right Angle Gold
+K
+F https://gct.co/files/drawings/sim8060.pdf?v=2c01d054-307b-4cbf-953a-b86573304153
+$ENDCMP
+#
+$CMP MMBT3904
+D 200 MA, NPN, SI, SMALL SIGNAL TRANSISTOR
+K
+F https://datasheet.pas.partquest.com/images/VipMasterIC/IC/PIRS/PIRSS12856/PIRSS12856-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054
+$ENDCMP
+#
+$CMP TPD1E10B06DPYR
+D ESD Suppressors / TVS Diodes Sgl Channel ESD TPD1E10B06 Single-Channel ESD Protection Diode in 0402 Package
+K
+F https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1599077798252&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+$ENDCMP
+#
+$CMP SMBJ33CA
+D SMBJ33CA transient suppressor,33V 600W
+K
+F https://www.vishay.com/docs/88392/smbj.pdf
+$ENDCMP
+#
+$CMP DMT6007LFGQ-7
+D MOSFET MOSFET BVDSS: 41V-60V
+K
+F https://www.diodes.com//assets/Datasheets/DMT6007LFGQ.pdf
+$ENDCMP
+#
+$CMP BQ25601DRTWR
+D I2C Controlled Single Cell 3-A Battery Charger with High Input Voltage and Power Path
+K
+F http://www.ti.com/lit/gpn/bq25601d
+$ENDCMP
+#
+$CMP LM76003QRNPRQ1
+D IC REG BUCK ADJ 3.5A 30WQFN
+K
+F https://www.ti.com/lit/gpn/LM76003-Q1
+$ENDCMP
+#
+$CMP TPS2121RUXR
+D 2.7-22V, 56m, 4.5A, Priority Power MUX with Seamless Switchover
+K
+F https://www.ti.com/lit/gpn/TPS2121
+$ENDCMP
+#
+$CMP INA3221AIRGVR
+D 26V, Triple, Bi-Directional, Low-/High-Side, I2C Out Current/Voltage Monitor w/Alerts
+K
+F http://www.ti.com/lit/ds/symlink/ina3221.pdf
+$ENDCMP
+#
+$CMP TPS3840DL35DBVR
+D Supervisory Circuits Nanopower high-input voltage supervisor with manual reset and programmable-reset time delay 5-SOT-23 -40 to 125
+K
+F https://www.ti.com/lit/ds/symlink/tps3840.pdf?ts=1591710013170&ref_url=https://www.ti.com/store/ti/en/p/product/?p%3DTPS3840DL17DBVR
+$ENDCMP
+#
+$CMP BQ29700DSER
+D Li-Ion/Li Polymer Advanced Single-Cell Battery Protector IC Family
+K
+F http://www.ti.com/lit/ds/symlink/bq2971.pdf
+$ENDCMP
+#
+$CMP TPS62840DLCR
+D Switching Voltage Regulators 60-nA IQ, 1.8-V to 6.5-VIN, high-efficiency 750-mA step-down converter 8-VSON-HR -40 to 125
+K
+F https://www.ti.com/lit/gpn/TPS62840
+$ENDCMP
+#
+$CMP CSD16406Q3
+D 25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm
+K
+F http://www.ti.com/lit/gpn/csd16406q3
+$ENDCMP
+#
+$CMP TPS63802DLAR
+D Texas Instruments High current, high efficiency single inductor buck-boost converter 10-VSON-HR -40 to 125
+K
+F http://www.ti.com/lit/ds/symlink/tps63802.pdf
+$ENDCMP
+#
+$CMP TPS61094DSSR
+D TPS61094 60-nA Quiescent Current Bi-directional Buck/Boost Converter with Bypass Mode
+K
+F https://www.ti.com/lit/ds/symlink/tps61094.pdf?ts=1635239064208
+$ENDCMP
+#
+$CMP BHC-18650-1P
+D 18650 Cell Battery Holder
+K
+F http://koreelectronics.com/wp-content/uploads/2015/09/KRE-18650-1P.pdf
+$ENDCMP
+#
+$CMP TPS3840DL30DBVR
+D Nanopower high-input voltage supervisor with manual reset and programmable-reset time delay
+K
+F http://www.ti.com/lit/gpn/TPS3840
+$ENDCMP
+#
+#End Doc Library
