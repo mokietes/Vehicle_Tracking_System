@@ -2,14 +2,14 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "SN74AXC4T245QPWRQ1"
+	(symbol "INA3221AIRGVR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U25"
-			(at 15.24 7.62 0)
+		(property "Reference" "U4"
+			(at 18.796 14.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18,8 +18,8 @@
 				)
 			)
 		)
-		(property "Value" "SN74AXC4T245QPWRQ1"
-			(at 15.24 5.08 0)
+		(property "Value" "INA3221AIRGVR"
+			(at 8.382 -14.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28,20 +28,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOP65P640X120-16N"
-			(at 26.67 -94.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74axch4t245.pdf"
-			(at 26.67 -194.92 0)
+		(property "Footprint" "QFN65P400X400X100-17N-D"
+			(at 31.75 -84.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -52,7 +40,19 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Translation - Voltage Levels"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina3221.pdf"
+			(at 31.75 -184.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "26V, Triple, Bi-Directional, Low-/High-Side, I2C Out Current/Voltage Monitor w/Alerts"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63,32 +63,8 @@
 				)
 			)
 		)
-		(property "Height" "1.2"
-			(at 26.67 -394.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-74AXC4T245QPWRQ1"
-			(at 26.67 -494.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AXC4T245QPWRQ1?qs=XeJtXLiO41Q9w1g9rz1hpQ%3D%3D"
-			(at 26.67 -594.92 0)
+		(property "Height" "1"
+			(at 31.75 -384.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -100,7 +76,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 26.67 -694.92 0)
+			(at 31.75 -484.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -111,8 +87,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SN74AXC4T245QPWRQ1"
-			(at 26.67 -794.92 0)
+		(property "Manufacturer_Part_Number" "INA3221AIRGVR"
+			(at 31.75 -584.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -123,10 +99,58 @@
 				(justify left top)
 			)
 		)
-		(symbol "SN74AXC4T245QPWRQ1_1_1"
+		(property "Mouser Part Number" "595-INA3221AIRGVR"
+			(at 31.75 -684.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA3221AIRGVR?qs=3AcK5DacLboHys8907TVUQ%3D%3D"
+			(at 31.75 -784.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "INA3221AIRGVR"
+			(at 31.75 -884.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ina3221airgvr/texas-instruments.html?utm_currency=USD&region=nac"
+			(at 31.75 -984.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(symbol "INA3221AIRGVR_1_1"
 			(rectangle
-				(start 5.08 2.54)
-				(end 25.4 -26.67)
+				(start 5.08 12.7)
+				(end 30.48 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -136,9 +160,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -25.4 0)
+				(at 0 8.89 0)
 				(length 5.08)
-				(name "VCCA"
+				(name "IN-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -154,9 +178,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 0)
+				(at 0 6.35 0)
 				(length 5.08)
-				(name "1DIR"
+				(name "IN+3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -172,9 +196,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -12.7 0)
+				(at 19.05 -17.78 90)
 				(length 5.08)
-				(name "2DIR"
+				(name "GND_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -190,9 +214,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 0 -8.89 0)
 				(length 5.08)
-				(name "1A1"
+				(name "VS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -208,9 +232,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at 16.51 -17.78 90)
 				(length 5.08)
-				(name "1A2"
+				(name "A0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -226,9 +250,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 0)
+				(at 35.56 10.16 180)
 				(length 5.08)
-				(name "2A1"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -244,9 +268,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 0)
+				(at 35.56 7.62 180)
 				(length 5.08)
-				(name "2A2"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -262,9 +286,9 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -31.75 90)
+				(at 35.56 5.08 180)
 				(length 5.08)
-				(name "GND_1"
+				(name "WARNING"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -280,9 +304,9 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -31.75 90)
+				(at 35.56 2.54 180)
 				(length 5.08)
-				(name "GND_2"
+				(name "CRITICAL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -297,10 +321,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 30.48 -7.62 180)
+			(pin no_connect line
+				(at 35.56 -11.43 180)
 				(length 5.08)
-				(name "2B2"
+				(name "PV"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -316,9 +340,9 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -5.08 180)
+				(at 35.56 -2.54 180)
 				(length 5.08)
-				(name "2B1"
+				(name "IN-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -334,9 +358,9 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -2.54 180)
+				(at 35.56 -5.08 180)
 				(length 5.08)
-				(name "1B2"
+				(name "IN+1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -351,10 +375,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 30.48 0 180)
+			(pin no_connect line
+				(at 35.56 -8.89 180)
 				(length 5.08)
-				(name "1B1"
+				(name "TC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -370,9 +394,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -15.24 0)
+				(at 0 -1.27 0)
 				(length 5.08)
-				(name "2~{OE}"
+				(name "IN-2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -388,9 +412,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 0)
+				(at 0 -3.81 0)
 				(length 5.08)
-				(name "1~{OE}"
+				(name "IN+2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -406,9 +430,9 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -17.78 180)
+				(at 0 -11.43 0)
 				(length 5.08)
-				(name "VCCB"
+				(name "VPU"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -416,6 +440,24 @@
 					)
 				)
 				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 -17.78 90)
+				(length 5.08)
+				(name "GND_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)

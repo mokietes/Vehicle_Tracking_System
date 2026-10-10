@@ -1,4 +1,7 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "Project_Parts") (type "KiCad") (uri "C:/Users/mtesfazien/Downloads/kicad/Project_Parts.kicad_sym/Project_Parts.kicad_sym") (options "") (descr ""))
+	(lib (name "Project_Parts") (type "KiCad") (uri "${KIPRJMOD}/kicad/Project_Parts.kicad_sym") (options "") (descr "Project symbols (rebuilt from the schematic)"))
+	(lib (name "SamacSys_Parts") (type "KiCad") (uri "${KIPRJMOD}/kicad/SamacSys_Parts.kicad_sym") (options "") (descr "SamacSys Library Loader symbols"))
+	(lib (name "gnd_NoFootPrint") (type "KiCad") (uri "${KIPRJMOD}/kicad/gnd_NoFootPrint.kicad_sym") (options "") (descr "Ground power symbol"))
+	(lib (name "SN74AXC4T245QPWRQ1") (type "KiCad") (uri "${KIPRJMOD}/kicad/SN74AXC4T245QPWRQ1.kicad_sym") (options "") (descr "TI level shifter"))
 )

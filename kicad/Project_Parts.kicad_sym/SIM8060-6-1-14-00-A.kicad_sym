@@ -2,14 +2,14 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "SN74AXC4T245QPWRQ1"
+	(symbol "SIM8060-6-1-14-00-A"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U25"
-			(at 15.24 7.62 0)
+		(property "Reference" "J3"
+			(at 16.002 4.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18,8 +18,8 @@
 				)
 			)
 		)
-		(property "Value" "SN74AXC4T245QPWRQ1"
-			(at 15.24 5.08 0)
+		(property "Value" "SIM8060-6-1-14-00-A"
+			(at 15.494 -14.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28,20 +28,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOP65P640X120-16N"
-			(at 26.67 -94.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74axch4t245.pdf"
-			(at 26.67 -194.92 0)
+		(property "Footprint" "SIM8060611400A"
+			(at 29.21 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -52,7 +40,19 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Translation - Voltage Levels"
+		(property "Datasheet" "https://gct.co/files/drawings/sim8060.pdf?v=2c01d054-307b-4cbf-953a-b86573304153"
+			(at 29.21 -194.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "6 Position Card Connector NANO SIM Surface Mount, Right Angle Gold"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63,8 +63,8 @@
 				)
 			)
 		)
-		(property "Height" "1.2"
-			(at 26.67 -394.92 0)
+		(property "Height" "1.53"
+			(at 29.21 -394.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -75,8 +75,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "595-74AXC4T245QPWRQ1"
-			(at 26.67 -494.92 0)
+		(property "Mouser Part Number" "640-SIM8060611400A"
+			(at 29.21 -494.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -87,8 +87,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AXC4T245QPWRQ1?qs=XeJtXLiO41Q9w1g9rz1hpQ%3D%3D"
-			(at 26.67 -594.92 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/SIM8060-6-1-14-00-A?qs=KUoIvG%2F9Ila0Zo%252BACtIseg%3D%3D"
+			(at 29.21 -594.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -99,8 +99,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 26.67 -694.92 0)
+		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
+			(at 29.21 -694.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -111,8 +111,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SN74AXC4T245QPWRQ1"
-			(at 26.67 -794.92 0)
+		(property "Manufacturer_Part_Number" "SIM8060-6-1-14-00-A"
+			(at 29.21 -794.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -123,10 +123,10 @@
 				(justify left top)
 			)
 		)
-		(symbol "SN74AXC4T245QPWRQ1_1_1"
+		(symbol "SIM8060-6-1-14-00-A_1_1"
 			(rectangle
 				(start 5.08 2.54)
-				(end 25.4 -26.67)
+				(end 27.94 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -136,70 +136,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -25.4 0)
-				(length 5.08)
-				(name "VCCA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -22.86 0)
-				(length 5.08)
-				(name "1DIR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -12.7 0)
-				(length 5.08)
-				(name "2DIR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 0 0)
 				(length 5.08)
-				(name "1A1"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "C1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -210,14 +156,14 @@
 			(pin passive line
 				(at 0 -2.54 0)
 				(length 5.08)
-				(name "1A2"
+				(name "RST"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "C2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -228,14 +174,50 @@
 			(pin passive line
 				(at 0 -5.08 0)
 				(length 5.08)
-				(name "2A1"
+				(name "CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -2.54 180)
+				(length 5.08)
+				(name "GND_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 33.02 0 180)
+				(length 5.08)
+				(name "VPP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -246,32 +228,14 @@
 			(pin passive line
 				(at 0 -7.62 0)
 				(length 5.08)
-				(name "2A2"
+				(name "I/O"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -31.75 90)
-				(length 5.08)
-				(name "GND_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
+				(number "C7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -280,7 +244,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -31.75 90)
+				(at 33.02 -5.08 180)
 				(length 5.08)
 				(name "GND_2"
 					(effects
@@ -289,7 +253,7 @@
 						)
 					)
 				)
-				(number "9"
+				(number "G1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -298,16 +262,16 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -7.62 180)
+				(at 0 -10.16 0)
 				(length 5.08)
-				(name "2B2"
+				(name "SW/GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "G2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -316,16 +280,16 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -5.08 180)
+				(at 33.02 -7.62 180)
 				(length 5.08)
-				(name "2B1"
+				(name "GND_3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "G3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -334,88 +298,16 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -2.54 180)
+				(at 33.02 -10.16 180)
 				(length 5.08)
-				(name "1B2"
+				(name "GND_4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 30.48 0 180)
-				(length 5.08)
-				(name "1B1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -15.24 0)
-				(length 5.08)
-				(name "2~{OE}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -17.78 0)
-				(length 5.08)
-				(name "1~{OE}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 30.48 -17.78 180)
-				(length 5.08)
-				(name "VCCB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
+				(number "G4"
 					(effects
 						(font
 							(size 1.27 1.27)
