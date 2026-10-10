@@ -16191,7 +16191,7 @@
 				)
 			)
 		)
-		(property "Value" "0.47uH 5.4A"
+		(property "Value" "0.47uH XGL4020-471MEC"
 			(at 110.49 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16225,6 +16225,28 @@
 		)
 		(property "Description" "Inductor"
 			(at 110.49 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XGL4020-471MEC"
+			(at 110.49 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Coilcraft"
+			(at 110.49 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17572,7 +17594,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2uH 4.4A"
+		(property "Value" "2.2uH XGL4020-222MEC"
 			(at 79.756 261.112 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17606,6 +17628,28 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 86.36 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XGL4020-222MEC"
+			(at 86.36 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Coilcraft"
 			(at 86.36 260.35 0)
 			(hide yes)
 			(show_name no)
