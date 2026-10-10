@@ -16201,7 +16201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XFL2010"
+		(property "Footprint" "TI_Parts:IND_XGL4020_COC"
 			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -17583,7 +17583,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22"
+		(property "Footprint" "TI_Parts:IND_XGL4020_COC"
 			(at 86.36 260.35 0)
 			(hide yes)
 			(show_name no)
