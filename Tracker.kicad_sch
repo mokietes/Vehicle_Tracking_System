@@ -9456,12 +9456,6 @@
 		(uuid "a5300edb-64bf-4a1a-8ec4-7656731161e7")
 	)
 	(junction
-		(at 83.82 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5869a2a-432c-4160-b028-59c57dd18d9e")
-	)
-	(junction
 		(at 441.96 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9841,7 +9835,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 86.36 88.9)
+			(xy 76.2 88.9) (xy 86.36 88.9)
 		)
 		(stroke
 			(width 0)
@@ -11671,16 +11665,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 88.9) (xy 83.82 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "796fcf54-3e51-4692-a5f7-1e5a7b438202")
-	)
-	(wire
-		(pts
 			(xy 113.03 140.97) (xy 114.3 140.97)
 		)
 		(stroke
@@ -11838,16 +11822,6 @@
 			(type default)
 		)
 		(uuid "89fd3825-8e88-4038-9ca6-cfc9ecde83da")
-	)
-	(wire
-		(pts
-			(xy 83.82 93.98) (xy 83.82 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b7bf76f-3d18-46bb-a234-dc8bc5091cb9")
 	)
 	(wire
 		(pts
@@ -12098,16 +12072,6 @@
 			(type default)
 		)
 		(uuid "9a208467-4548-4f1b-ad89-9399570a1538")
-	)
-	(wire
-		(pts
-			(xy 83.82 101.6) (xy 83.82 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac5a3ce-35f4-4be5-b27a-9da3e3641b7a")
 	)
 	(wire
 		(pts
@@ -25153,85 +25117,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 83.82 104.14 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f22f4d3-3505-4bdf-ba77-e52ad0888737")
-		(property "Reference" "#PWR0171"
-			(at 80.01 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3_AON"
-			(at 87.63 104.1399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 83.82 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 83.82 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16ea78c0-e07c-4958-a0fd-e25eaf371eb1")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
-					(reference "#PWR0171")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 229.87 345.44 0)
 		(unit 1)
@@ -33815,87 +33700,6 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "#PWR0222")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 83.82 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2041e76-c191-4649-8a20-b59a919ebd5c")
-		(property "Reference" "R47"
-			(at 77.978 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 77.216 99.568 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 82.042 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 83.82 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21bb61ec-2841-48ca-b095-a24cce23c538")
-		)
-		(pin "2"
-			(uuid "5e8b963f-1abb-4e41-8081-7a9507d507ac")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
-					(reference "R47")
 					(unit 1)
 				)
 			)
