@@ -8,8 +8,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U902"
-			(at 15.494 4.064 0)
+		(property "Reference" "U25"
+			(at 15.24 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "SN74AXC4T245QPWRQ1"
-			(at 15.24 -21.844 0)
+			(at 15.24 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -75,7 +75,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
+		(property "Mouser Part Number" "595-74AXC4T245QPWRQ1"
 			(at 26.67 -494.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -87,7 +87,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SN74AXC4T245QPWRQ1"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AXC4T245QPWRQ1?qs=XeJtXLiO41Q9w1g9rz1hpQ%3D%3D"
 			(at 26.67 -594.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -99,7 +99,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "595-74AXC4T245QPWRQ1"
+		(property "Manufacturer_Name" "Texas Instruments"
 			(at 26.67 -694.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -111,32 +111,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AXC4T245QPWRQ1?qs=XeJtXLiO41Q9w1g9rz1hpQ%3D%3D"
+		(property "Manufacturer_Part_Number" "SN74AXC4T245QPWRQ1"
 			(at 26.67 -794.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "SN74AXC4T245QPWRQ1"
-			(at 26.67 -894.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74axc4t245qpwrq1/texas-instruments?utm_currency=USD&region=nac"
-			(at 26.67 -994.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -150,7 +126,7 @@
 		(symbol "SN74AXC4T245QPWRQ1_1_1"
 			(rectangle
 				(start 5.08 2.54)
-				(end 25.4 -20.32)
+				(end 25.4 -26.67)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -160,7 +136,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 0 -25.4 0)
 				(length 5.08)
 				(name "VCCA"
 					(effects
@@ -178,7 +154,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at 0 -22.86 0)
 				(length 5.08)
 				(name "1DIR"
 					(effects
@@ -196,7 +172,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 0)
+				(at 0 -12.7 0)
 				(length 5.08)
 				(name "2DIR"
 					(effects
@@ -214,7 +190,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 0)
+				(at 0 0 0)
 				(length 5.08)
 				(name "1A1"
 					(effects
@@ -232,7 +208,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 0)
+				(at 0 -2.54 0)
 				(length 5.08)
 				(name "1A2"
 					(effects
@@ -250,7 +226,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -12.7 0)
+				(at 0 -5.08 0)
 				(length 5.08)
 				(name "2A1"
 					(effects
@@ -267,10 +243,9 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 0 -15.24 0)
+			(pin passive line
+				(at 0 -7.62 0)
 				(length 5.08)
-				(hide yes)
 				(name "2A2"
 					(effects
 						(font
@@ -287,7 +262,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 0)
+				(at 15.24 -31.75 90)
 				(length 5.08)
 				(name "GND_1"
 					(effects
@@ -305,7 +280,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -17.78 180)
+				(at 17.78 -31.75 90)
 				(length 5.08)
 				(name "GND_2"
 					(effects
@@ -322,10 +297,9 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 30.48 -15.24 180)
+			(pin passive line
+				(at 30.48 -7.62 180)
 				(length 5.08)
-				(hide yes)
 				(name "2B2"
 					(effects
 						(font
@@ -342,7 +316,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -12.7 180)
+				(at 30.48 -5.08 180)
 				(length 5.08)
 				(name "2B1"
 					(effects
@@ -360,7 +334,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -10.16 180)
+				(at 30.48 -2.54 180)
 				(length 5.08)
 				(name "1B2"
 					(effects
@@ -378,7 +352,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -7.62 180)
+				(at 30.48 0 180)
 				(length 5.08)
 				(name "1B1"
 					(effects
@@ -396,7 +370,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -5.08 180)
+				(at 0 -15.24 0)
 				(length 5.08)
 				(name "2~{OE}"
 					(effects
@@ -414,7 +388,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -2.54 180)
+				(at 0 -17.78 0)
 				(length 5.08)
 				(name "1~{OE}"
 					(effects
@@ -432,7 +406,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 0 180)
+				(at 30.48 -17.78 180)
 				(length 5.08)
 				(name "VCCB"
 					(effects
