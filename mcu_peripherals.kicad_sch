@@ -9033,7 +9033,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 87.63) (xy 109.22 87.63)
+			(xy 109.22 87.63) (xy 137.16 87.63)
 		)
 		(stroke
 			(width 0)
@@ -10520,16 +10520,6 @@
 			(type default)
 		)
 		(uuid "d9fbc382-966f-43be-b980-e4bb81eb7f75")
-	)
-	(wire
-		(pts
-			(xy 123.19 87.63) (xy 137.16 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da9c2d51-7881-48f5-8f6a-fb99e861a1f4")
 	)
 	(wire
 		(pts
@@ -21196,94 +21186,6 @@
 			(project "page_2"
 				(path "/b70b23fc-d90a-4374-8ce9-83c1fd111d3f"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 87.63 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "a90a54e0-2cee-48b3-b76c-6ba80ff636a9")
-		(property "Reference" "R12"
-			(at 117.348 84.836 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DNP"
-			(at 117.602 89.916 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 119.38 85.852 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ede784a3-b1e5-40ce-9bf3-8e7c4f824479")
-		)
-		(pin "2"
-			(uuid "387404cd-a63d-4ea9-8a6a-7bb7998c4980")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/378094db-8f3e-4510-9f4d-07bbb8577682"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project "page_2"
-				(path "/b70b23fc-d90a-4374-8ce9-83c1fd111d3f"
-					(reference "R215")
 					(unit 1)
 				)
 			)
