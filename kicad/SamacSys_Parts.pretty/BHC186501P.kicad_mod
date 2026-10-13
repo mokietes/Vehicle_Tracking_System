@@ -27,7 +27,7 @@
   (pad MH1 thru_hole circle (at 8.850 -0) (size 4.500 4.500) (drill 3) (layers *.Cu *.Mask))
   (pad MH2 thru_hole circle (at 62.550 -0) (size 4.500 4.500) (drill 3) (layers *.Cu *.Mask))
   (pad MH3 np_thru_hole circle (at 69.950 9.7) (size 1.8 1.8) (drill 1.8) (layers *.Cu *.Mask))
-  (model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\BHC-18650-1P.stp"
+  (model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/BHC-18650-1P.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -138,4 +138,22 @@ K
 F http://www.ti.com/lit/gpn/TPS3840
 $ENDCMP
 #
+$CMP XGL4020-471MEC
+D 470 nH Shielded Molded Inductor 19.7 A 5.1mOhm Max 1616 (4040 Metric)
+K
+F https://www.coilcraft.com/getmedia/76c9c081-4945-4c85-9129-9356e1ad6734/xgl4020.pdf
+$ENDCMP
+#
+$CMP BG95-M3
+D LPWA Module
+K
+F https://fcc.report/FCC-ID/XMR201910BG95M3/4466694.pdf
+$ENDCMP
+#
+$CMP MAX-M10S-00B
+D GPS Modules u-blox M10 GNSS LCC module, firmware in ROM, SAW filter, LNA
+K
+F https://content.u-blox.com/sites/default/files/MAX-M10S_IntegrationManual_UBX-20053088.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -45,7 +45,7 @@
   (pad 12 smd rect (at 0.500 -0.912 0) (size 0.250 0.475) (layers F.Cu F.Paste F.Mask))
   (pad 13 smd rect (at 0.000 -0.912 0) (size 0.250 0.475) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd rect (at -0.500 -0.912 0) (size 0.250 0.475) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\ASM330LHHXG1TR.stp"
+  (model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/ASM330LHHXG1TR.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

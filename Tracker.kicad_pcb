@@ -1320,7 +1320,7 @@
 			(uuid "daf3a1c2-4336-41fa-b112-a365e6f18933")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\BQ29700DSER.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/BQ29700DSER.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2433,7 +2433,7 @@
 			(uuid "db3703cf-b4aa-4cc3-99ee-7d60ab806ccb")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\DMT6007LFGQ-7.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/DMT6007LFGQ-7.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13098,7 +13098,7 @@
 			(uuid "20d7a4a0-ecea-4ed9-a77a-4673eef61045")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\TPD1E10B06DPYR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/TPD1E10B06DPYR.stp"
 			(offset
 				(xyz 0 0 0.04999999999)
 			)
@@ -15000,7 +15000,7 @@
 			(uuid "b8267410-4e9e-41d3-8470-489a316e0867")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\TPS22918TDBVTQ1.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/TPS22918TDBVTQ1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15542,7 +15542,7 @@
 			(uuid "3569ffe5-6526-4dde-b3f7-01ebaaebd75c")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\INA3221AIRGVR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/INA3221AIRGVR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16309,7 +16309,7 @@
 			(uuid "ad5ec96f-0c63-4abd-babd-55c11a088b06")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\MMBT3904.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/MMBT3904.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16704,7 +16704,7 @@
 			(uuid "e6155596-75c9-4662-b475-3e1eab2ea380")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\TPS61094DSSR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/TPS61094DSSR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19992,7 +19992,7 @@
 			(uuid "cce9d43f-1dc8-4b75-a90f-4a9f0c7ae206")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\TPS62840DLCR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/TPS62840DLCR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22390,7 +22390,7 @@
 			(uuid "057c5964-b6ab-4c86-9ab6-ac7af0f4d501")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal.step"
+		(model "D:/Download/430450400.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23208,7 +23208,7 @@
 			(uuid "c687814b-7abd-4358-bd06-4b5b81c56ff6")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\MMBT3904.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/MMBT3904.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25732,7 +25732,7 @@
 			(uuid "c0992660-fe59-4fe1-b6d6-324006db312a")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\SMBJ33CA.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/SMBJ33CA.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26482,7 +26482,7 @@
 			(uuid "d30cc319-dfab-40d8-aa70-acf04d5e02be")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/RF_GPS.3dshapes/ublox_MAX.step"
+		(model "D:/Download/LIB_MAX-M10S-00B/MAX-M10S-00B/3D/MAX-M10S-00B.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27599,7 +27599,7 @@
 			(uuid "8ea28704-1041-402f-a404-9036b1265dc8")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\ASM330LHHTR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/ASM330LHHTR.stp"
 			(offset
 				(xyz 0 0 0.8600000014)
 			)
@@ -28253,7 +28253,7 @@
 			(uuid "87519048-43fa-43cc-9bcc-7a24c17027f9")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\TPD1E10B06DPYR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/TPD1E10B06DPYR.stp"
 			(offset
 				(xyz 0 0 0.04999999999)
 			)
@@ -28834,7 +28834,7 @@
 			(uuid "24ff0879-1a10-4245-ba29-6db58f074304")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\LM76003QRNPRQ1.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/LM76003QRNPRQ1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33232,7 +33232,7 @@
 			(uuid "f81d8a64-e9a0-4cf5-a5c3-1987cebd4660")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\W25N01GVZEIG.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/W25N01GVZEIG.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35312,6 +35312,17 @@
 			(uuid "4a983d26-047e-41e0-ab51-1999e5ae80c8")
 		)
 		(embedded_fonts no)
+		(model "D:/Download/LIB_XGL4020-471MEC/XGL4020-471MEC/3D/XGL4020-471MEC.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -35922,7 +35933,7 @@
 			(uuid "0958598b-155f-4c3b-9d84-834c5bf4a0e1")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\SN74AXC4T245QPWRQ1.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/SN74AXC4T245QPWRQ1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36517,7 +36528,7 @@
 			(uuid "03f7466b-4081-46a8-9c4a-166aeb493e34")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\SN74AXC4T245QPWRQ1.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/SN74AXC4T245QPWRQ1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37013,7 +37024,7 @@
 			(uuid "adcf23f7-2053-44e9-bb38-f6d674592eaa")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\TPD1E10B06DPYR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/TPD1E10B06DPYR.stp"
 			(offset
 				(xyz 0 0 0.04999999999)
 			)
@@ -43477,7 +43488,7 @@
 			(uuid "be4bd08d-4235-404b-918b-1df98bfe86d4")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\TPS3840DL30DBVR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/TPS3840DL30DBVR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45987,7 +45998,7 @@
 			(uuid "7f912e68-0c00-49ff-abc9-b687f5925fda")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\TPS62840DLCR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/TPS62840DLCR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48047,7 +48058,7 @@
 			(uuid "3e407dce-2768-45af-b62e-89753d4c54e9")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\SN74AXC4T245QPWRQ1.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/SN74AXC4T245QPWRQ1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48537,7 +48548,7 @@
 			(uuid "3fbe1044-0d9c-49f9-be6a-eb05a93bd4f2")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\TPS63802DLAR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/TPS63802DLAR.stp"
 			(offset
 				(xyz 0 0 0.999999985)
 			)
@@ -49178,7 +49189,7 @@
 			(uuid "4692ada6-f0f5-4293-98ba-d6449a811446")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\SIM8060-6-1-14-00-A.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/SIM8060-6-1-14-00-A.stp"
 			(offset
 				(xyz 0 -6.849999802 0.02999999888)
 			)
@@ -50795,7 +50806,7 @@
 			(uuid "22a78a19-3347-4db5-bdcb-9a759f8e29f1")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\TPD1E10B06DPYR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/TPD1E10B06DPYR.stp"
 			(offset
 				(xyz 0 0 0.04999999999)
 			)
@@ -51864,7 +51875,7 @@
 			(uuid "b275220f-8579-4007-9e15-36d80e158d37")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\SN74AXC4T245QPWRQ1.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/SN74AXC4T245QPWRQ1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -52226,7 +52237,7 @@
 			(uuid "aa6bf524-9658-45ba-b8ac-10801152089c")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\TPS3840DL30DBVR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/TPS3840DL30DBVR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -54121,7 +54132,8 @@
 			(uuid "e4b34cde-bc13-4136-90b4-a55eebc327a2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/RF_GSM.3dshapes/Quectel_BG95.step"
+		(model "D:/Download/LIB_BG95-M3/BG95-M3/3D/BG95-M3.stp"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -54129,7 +54141,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -55241,7 +55253,7 @@
 			(uuid "120ce039-33fc-436a-b23a-33618b84a1cd")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\CSD16406Q3.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/CSD16406Q3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -55904,7 +55916,7 @@
 			(uuid "25a7eb73-5cd4-4ca0-bf2b-2301dcd8f508")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\BQ25601DRTWR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/BQ25601DRTWR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -57644,7 +57656,7 @@
 			(uuid "c7bdf5dd-af38-49d5-bb12-8edcbb589fdd")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\CSD16406Q3.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/CSD16406Q3.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -58874,7 +58886,7 @@
 			(uuid "011bd89f-7632-47fb-a296-2e2936c42d84")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\TPS2121RUXR.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/TPS2121RUXR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -59551,7 +59563,7 @@
 			(uuid "50cfb518-218d-4264-8502-732910fe83ba")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\mtesfazien\\Downloads\\kicad\\SamacSys_Parts.3dshapes\\BHC-18650-1P.stp"
+		(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/BHC-18650-1P.stp"
 			(offset
 				(xyz 0 0 0)
 			)
