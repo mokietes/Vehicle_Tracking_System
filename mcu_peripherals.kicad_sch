@@ -19184,7 +19184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8863b434-8373-4290-8f62-13f23d90f66c")
-		(property "Reference" "SW2"
+		(property "Reference" "BOOT"
 			(at 440.69 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19248,7 +19248,7 @@
 		(instances
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/378094db-8f3e-4510-9f4d-07bbb8577682"
-					(reference "SW2")
+					(reference "BOOT")
 					(unit 1)
 				)
 			)
@@ -22399,7 +22399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0a48420-8b94-4f33-95d5-8d9d718de550")
-		(property "Reference" "SW1"
+		(property "Reference" "RESET"
 			(at 135.89 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22463,7 +22463,7 @@
 		(instances
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8/378094db-8f3e-4510-9f4d-07bbb8577682"
-					(reference "SW1")
+					(reference "RESET")
 					(unit 1)
 				)
 			)
