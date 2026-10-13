@@ -189,7 +189,7 @@
 		(uuid "86b90d87-cdaa-4549-b1ed-d8c91f922a94")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshape\\CSD16406Q3.stp"
+	(model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshapes/CSD16406Q3.stp"
 		(offset
 			(xyz 0 0 0)
 		)

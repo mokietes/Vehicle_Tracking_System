@@ -55,7 +55,7 @@ ENDDRAW
 ENDDEF
 #
 #SamacSys ECAD Model SN74AXC4T245QPWRQ1
-#/11359923/2179087/2.50/16/3/Integrated Circuit
+#/11359923/2190727/2.50/16/3/Integrated Circuit
 DEF SN74AXC4T245QPWRQ1 IC 0 30 Y Y 1 F N
 F0 "IC" 1050 300 50 H V L CNN
 F1 "SN74AXC4T245QPWRQ1" 1050 200 50 H V L CNN
@@ -63,10 +63,12 @@ F2 "SOP65P640X120-16N" 1050 100 50 H I L CNN
 F3 "https://www.ti.com/lit/ds/symlink/sn74axch4t245.pdf" 1050 0 50 H I L CNN
 F4 "Translation - Voltage Levels" 1050 -100 50 H I L CNN "Description"
 F5 "1.2" 1050 -200 50 H I L CNN "Height"
-F6 "595-74AXC4T245QPWRQ1" 1050 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AXC4T245QPWRQ1?qs=XeJtXLiO41Q9w1g9rz1hpQ%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
-F9 "SN74AXC4T245QPWRQ1" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SN74AXC4T245QPWRQ1" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-74AXC4T245QPWRQ1" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AXC4T245QPWRQ1?qs=XeJtXLiO41Q9w1g9rz1hpQ%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SN74AXC4T245QPWRQ1" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sn74axc4t245qpwrq1/texas-instruments?utm_currency=USD&region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
 DRAW
 X VCCA 1 0 0 200 R 50 50 0 0 P
 X 1DIR 2 0 -100 200 R 50 50 0 0 P
@@ -910,6 +912,52 @@ X GND_26 100 1900 -4800 200 L 50 50 0 0 P
 X GND_27 101 1900 -4900 200 L 50 50 0 0 P
 X GND_28 102 1900 -5000 200 L 50 50 0 0 P
 P 5 0 1 6 200 100 1700 100 1700 -5100 200 -5100 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 0451.250NRL
+#/642134/2190727/2.50/2/3/Fuse
+DEF 0451.250NRL F 0 30 Y Y 1 F N
+F0 "F" 550 250 50 H V L CNN
+F1 "0451.250NRL" 550 150 50 H V L CNN
+F2 "FUSC6127X294N" 550 50 50 H I L CNN
+F3 "https://www.digikey.ph/en/products/detail/littelfuse-inc/0451-250NRL/2023586?msockid=39f1ec84d77b6f4428b7f904d6676eed" 550 -50 50 H I L CNN
+F4 "Littelfuse SMD-Sicherung, nicht rckstellbar 250mA 125V Keramik FF" 550 -150 50 H I L CNN "Description"
+F5 "2.94" 550 -250 50 H I L CNN "Height"
+F6 "LITTELFUSE" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "0451.250NRL" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "576-0451.250NRL" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Littelfuse/0451.250NRL?qs=PalBzRKzfnu%2F%2FQ5BAoC%252B%2Fg%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 2 0 1 6 200 0 500 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 0453003.MR
+#/1355364/2190727/2.50/2/3/Fuse
+DEF 0453003.MR F 0 30 Y Y 1 F N
+F0 "F" 550 250 50 H V L CNN
+F1 "0453003.MR" 550 150 50 H V L CNN
+F2 "VARC6127X269N" 550 50 50 H I L CNN
+F3 "https://www.arrow.com/en/products/0453003.mr/littelfuse" 550 -50 50 H I L CNN
+F4 "0453003.MR^2752^8387036" 550 -150 50 H I L CNN "Description"
+F5 "2.69" 550 -250 50 H I L CNN "Height"
+F6 "LITTELFUSE" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "0453003.MR" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "576-0453003.MR" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=576-0453003.MR" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "0453003.MR" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/0453003.mr/littelfuse?region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 2 0 1 6 200 0 500 0 N
 ENDDRAW
 ENDDEF
 #
