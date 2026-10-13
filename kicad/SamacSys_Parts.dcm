@@ -51,7 +51,7 @@ $ENDCMP
 $CMP TPD1E10B06DPYR
 D ESD Suppressors / TVS Diodes Sgl Channel ESD TPD1E10B06 Single-Channel ESD Protection Diode in 0402 Package
 K
-F https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1599077798252&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+F 
 $ENDCMP
 #
 $CMP SMBJ33CA
@@ -136,6 +136,30 @@ $CMP TPS3840DL30DBVR
 D Nanopower high-input voltage supervisor with manual reset and programmable-reset time delay
 K
 F http://www.ti.com/lit/gpn/TPS3840
+$ENDCMP
+#
+$CMP XGL4020-822MEC
+D 8.2 H Shielded Molded Inductor 4.1 A 78.1mOhm Max 1616 (4040 Metric)
+K
+F https://www.coilcraft.com/getmedia/76c9c081-4945-4c85-9129-9356e1ad6734/xgl4020.pdf
+$ENDCMP
+#
+$CMP MAX-M10S-00B
+D GPS Modules u-blox M10 GNSS LCC module, firmware in ROM, SAW filter, LNA
+K
+F https://content.u-blox.com/sites/default/files/MAX-M10S_IntegrationManual_UBX-20053088.pdf
+$ENDCMP
+#
+$CMP 43045-0400
+D Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Dual Row, 4 Circuits, with Snap-in Plastic Peg PCB Lock
+K
+F https://www.molex.com/pdm_docs/sd/430450200_sd.pdf
+$ENDCMP
+#
+$CMP BG95-M3
+D LPWA Module
+K
+F https://fcc.report/FCC-ID/XMR201910BG95M3/4466694.pdf
 $ENDCMP
 #
 #End Doc Library
