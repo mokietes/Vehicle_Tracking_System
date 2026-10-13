@@ -162,4 +162,16 @@ K
 F https://fcc.report/FCC-ID/XMR201910BG95M3/4466694.pdf
 $ENDCMP
 #
+$CMP 0451.250NRL
+D Littelfuse SMD-Sicherung, nicht rckstellbar 250mA 125V Keramik FF
+K
+F https://www.digikey.ph/en/products/detail/littelfuse-inc/0451-250NRL/2023586?msockid=39f1ec84d77b6f4428b7f904d6676eed
+$ENDCMP
+#
+$CMP 0453003.MR
+D 0453003.MR^2752^8387036
+K
+F https://www.arrow.com/en/products/0453003.mr/littelfuse
+$ENDCMP
+#
 #End Doc Library

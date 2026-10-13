@@ -45,7 +45,7 @@
   (pad G2 smd rect (at -6.150 6.1 0) (size 1.300 1.800) (layers F.Cu F.Paste F.Mask))
   (pad G3 smd rect (at 6.150 6.1 0) (size 1.300 1.800) (layers F.Cu F.Paste F.Mask))
   (pad G4 smd rect (at 6.150 -2.7 0) (size 1.300 1.800) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/kicad/SamacSys_Parts.3dshape\\SIM8060-6-1-14-00-A.stp"
+  (model "C:\\Users\\mtesfazien\\Downloads\\Git\\Vehicle_Tracking_System\\kicad\\SamacSys_Parts.3dshapes\\SIM8060-6-1-14-00-A.stp"
     (at (xyz 0 -0.26968503561546 0.001181102335805))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
