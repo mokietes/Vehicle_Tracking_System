@@ -4287,7 +4287,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1599077798252&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
+			(property "Datasheet" ""
 				(at 12.7 -193.65 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4322,7 +4322,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer_Name" "Texas Instruments"
+			(property "Mouser Part Number" "595-TPD1E10B06DPYR"
 				(at 12.7 -493.65 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4334,7 +4334,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer_Part_Number" "TPD1E10B06DPYR"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD1E10B06DPYR?qs=UFc95S4Z4CaJYpQ4xqTc0g%3D%3D"
 				(at 12.7 -593.65 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4346,7 +4346,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Mouser Part Number" "595-TPD1E10B06DPYR"
+			(property "Manufacturer_Name" "Texas Instruments"
 				(at 12.7 -693.65 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4358,32 +4358,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD1E10B06DPYR?qs=UFc95S4Z4CaJYpQ4xqTc0g%3D%3D"
+			(property "Manufacturer_Part_Number" "TPD1E10B06DPYR"
 				(at 12.7 -793.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Arrow Part Number" "TPD1E10B06DPYR"
-				(at 12.7 -893.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tpd1e10b06dpyr/texas-instruments?region=nac"
-				(at 12.7 -993.65 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)

@@ -1009,7 +1009,7 @@
 		(property "Reference" "U4"
 			(at -0.1 -1.9 90)
 			(layer "F.SilkS")
-			(uuid "10b88945-c720-4328-b361-b192139d3e62")
+			(uuid "a729a6a6-1770-49c2-bba2-08d9a26eccf2")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1021,7 +1021,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0acd56c6-f7f6-4f08-ad71-88bf3f050d7b")
+			(uuid "8e4efddf-b784-4805-b5d8-bd999b23fb72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,7 +1033,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dbe3efbc-1294-44d7-9a6c-4f4a2362bd63")
+			(uuid "f1340f3b-5677-4575-ab0e-4fd09e9bb428")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1044,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54b82a06-2b53-487f-8da2-e03c720d7d39")
+			(uuid "5a4301a3-6423-4c0f-8db8-f715ec38977d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +4652,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "11ae9355-e302-431c-b68d-cdc942ab5954")
-		(at 37.1164 178.8028)
+		(at 37 178.2)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP12"
@@ -7283,7 +7283,7 @@
 		(property "Reference" "C6"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(uuid "e3c11dfc-4d12-4600-ae0a-2370e2f8dcb0")
+			(uuid "f79f68e0-d284-45ab-b9cd-95f6da1c2c79")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7294,7 +7294,7 @@
 		(property "Value" "100nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "680a79e7-8010-4f62-bebf-be81e2bfa88b")
+			(uuid "8308e6bd-19d3-4080-9689-14a70c1ae9d6")
 			(effects
 				(font
 					(size 1 1)
@@ -7306,7 +7306,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3fe2a91-3ce9-4a70-ad15-e43e284c527b")
+			(uuid "00143f7c-df19-47c5-8a44-cb4a63bec939")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7317,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba31bb6a-f91b-40c9-8259-f73fa39cc1b1")
+			(uuid "3e160315-6e97-4278-815d-7f87a841804e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8037,7 +8037,7 @@
 		(property "Reference" "R17"
 			(at 2.8 0 90)
 			(layer "F.SilkS")
-			(uuid "3400c905-0dfd-4b2d-8e9a-684f0d1dac32")
+			(uuid "3c25aad5-c8d2-4bc9-961b-910b39686d46")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8048,7 +8048,7 @@
 		(property "Value" "5.1M"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "fc807105-6d08-49eb-8fce-90c7b6a2e815")
+			(uuid "d179fe6a-4bab-4dcc-9e73-58afffc604bc")
 			(effects
 				(font
 					(size 1 1)
@@ -8060,7 +8060,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79bebc78-8559-4b20-a5dd-5ee76fc1b171")
+			(uuid "7bf96635-d716-4c96-876d-ba0116ff5427")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,7 +8071,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f22ad057-1ac2-449f-aed6-2cb36e8a880f")
+			(uuid "1e541db7-d2bc-4e95-bcb1-6d9c9c96a494")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14968,7 +14968,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "4cceba5b-3af2-40a2-9a85-e8925353fbe9")
-		(at 37.1164 175.2528)
+		(at 47.7 171.6)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -53063,7 +53063,7 @@
 		(property "Reference" "Q1"
 			(at -0.025 -2.965 0)
 			(layer "F.SilkS")
-			(uuid "129e72de-da64-44a8-8441-a61de6ce55e6")
+			(uuid "426d26bf-f9a1-485f-ad22-12be79b60c8d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -53075,7 +53075,7 @@
 			(at -0.36791 -0.00685 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6537d498-decd-42b2-adef-069a770d081d")
+			(uuid "2f7f9351-9099-40fc-ba70-75417b1a456e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53087,7 +53087,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21170f1b-d00b-4d01-a8d6-95382951455c")
+			(uuid "8953d578-4b9d-447a-8b2f-5b310f4af788")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53098,7 +53098,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1b2c232-850a-409b-87d2-2a892cfcb275")
+			(uuid "fe2985d1-28d2-48c9-aa32-1cdedc7efc53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56693,7 +56693,7 @@
 			(at 0 5.5 90)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "d4bb4cd0-f758-4c58-a074-d6a2ae3de5a2")
+			(uuid "5b13afbe-9023-49eb-89b6-626960a581ef")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -56706,7 +56706,7 @@
 			(at 0 -5 90)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "718b5588-241a-413c-bc2c-25a579af11da")
+			(uuid "3b0b813a-9966-43b9-9a9b-8ccf93589b27")
 			(effects
 				(font
 					(size 1 1)
@@ -56720,7 +56720,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1c7e4e80-8ad8-42f1-b252-67a2b408f61a")
+			(uuid "0196fd90-5d5a-449d-9abf-7bd88b99a60d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56734,7 +56734,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "098d0324-3d03-4583-ac75-f720b0a17e06")
+			(uuid "b8b1a05a-b392-4ad0-aaa9-88ea754e44de")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57531,7 +57531,7 @@
 		(property "Reference" "J1"
 			(at 1.5 8.2 90)
 			(layer "B.SilkS")
-			(uuid "858c98e8-6302-4dbc-b091-253a580a1eca")
+			(uuid "1028b606-10b3-45c6-9039-274eb94576ee")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -57543,7 +57543,7 @@
 		(property "Value" "Vehicle 12V 2X2"
 			(at 1.5 -5.7 90)
 			(layer "B.Fab")
-			(uuid "9048df44-df5f-43a7-b2d4-b2c64ce9cb19")
+			(uuid "eda338f9-c61c-4e15-aa2b-cc332547432c")
 			(effects
 				(font
 					(size 1 1)
@@ -57556,7 +57556,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bc2d7c9d-dc7a-4909-9895-0ad41ccffa96")
+			(uuid "7fc9c862-dc87-425b-808a-a4cdd5346631")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57568,7 +57568,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "516a733a-b9d3-4e79-b4a3-7e91376e7f6e")
+			(uuid "d3f40df1-81f9-4517-917b-d71efbbdd35f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58063,7 +58063,6 @@
 				(justify mirror)
 			)
 		)
-		(path "/58f5b43d-aa96-42d6-ad4d-d3f4383fe40c")
 		(sheetname "/")
 		(sheetfile "Tracker.kicad_sch")
 		(units
