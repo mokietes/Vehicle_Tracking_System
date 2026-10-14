@@ -5,292 +5,6 @@
 	(uuid "586d1ea1-b017-4713-987c-545d658f6cc8")
 	(paper "A2")
 	(lib_symbols
-		(symbol "BH-18650-PC:BH-18650-PC"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BT"
-				(at -3.81 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "BH-18650-PC"
-				(at -3.81 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "BH-18650-PC:BAT_BH-18650-PC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "18650 cell battery holders,li-ion battery holders"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MF" "MPD (Memory Protection Devices)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "21.31mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/BH-18650-PC/MPD/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "05/17/19"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BH-18650-PC/MPD/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "BH-18650-PC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "MPD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "BH-18650-PC_0_0"
-				(polyline
-					(pts
-						(xy -5.08 1.905) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -4.445 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "N"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
@@ -2181,6 +1895,238 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Project_Parts:BHC-18650-1P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT1"
+				(at 20.32 -2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BHC-18650-1P"
+				(at 11.684 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BHC186501P"
+				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://koreelectronics.com/wp-content/uploads/2015/09/KRE-18650-1P.pdf"
+				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "18650 Cell Battery Holder"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "21.5"
+				(at 19.05 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Korean Hroparts Elec"
+				(at 19.05 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BHC-18650-1P"
+				(at 19.05 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 19.05 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "BHC-18650-1P_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9102,6 +9048,12 @@
 		(uuid "4b827491-c517-4e0b-bcd7-d1146e4f24c0")
 	)
 	(junction
+		(at 49.53 326.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bb2bf01-f1d3-41e8-adfa-225fd955420c")
+	)
+	(junction
 		(at 388.62 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9274,12 +9226,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78aac538-9cdb-4a92-a22a-4aba94eb1732")
-	)
-	(junction
-		(at 50.8 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a9af699-c4a1-4711-800e-e8b2e9887d39")
 	)
 	(junction
 		(at 427.99 48.26)
@@ -10169,16 +10115,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 344.17) (xy 87.63 344.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15de8a56-f907-44ac-827b-85a8e82f6736")
-	)
-	(wire
-		(pts
 			(xy 251.46 170.18) (xy 254 170.18)
 		)
 		(stroke
@@ -10849,16 +10785,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 340.36) (xy 50.8 344.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43f4f3e3-cc62-452b-bbc2-49abc8274f91")
-	)
-	(wire
-		(pts
 			(xy 336.55 241.3) (xy 369.57 241.3)
 		)
 		(stroke
@@ -11009,16 +10935,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 326.39) (xy 87.63 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50653edd-c0a5-4e66-917d-41afb2d21e39")
-	)
-	(wire
-		(pts
 			(xy 471.17 198.12) (xy 471.17 199.39)
 		)
 		(stroke
@@ -11039,7 +10955,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 326.39) (xy 50.8 326.39)
+			(xy 49.53 326.39) (xy 87.63 326.39)
 		)
 		(stroke
 			(width 0)
@@ -11626,6 +11542,16 @@
 			(type default)
 		)
 		(uuid "739822e7-5a71-42ab-a237-c15105c07077")
+	)
+	(wire
+		(pts
+			(xy 45.72 326.39) (xy 49.53 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a62fb9-b673-4fac-8b64-b49907ae4104")
 	)
 	(wire
 		(pts
@@ -12239,16 +12165,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 326.39) (xy 50.8 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a24a96fb-e287-4ec4-8147-56531195afe0")
-	)
-	(wire
-		(pts
 			(xy 424.18 48.26) (xy 427.99 48.26)
 		)
 		(stroke
@@ -12476,6 +12392,16 @@
 			(type default)
 		)
 		(uuid "b16ec324-c773-42dd-835e-04dd48ca9e3e")
+	)
+	(wire
+		(pts
+			(xy 49.53 344.17) (xy 87.63 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2064c2b-6260-4f6f-a807-977d36a754c3")
 	)
 	(wire
 		(pts
@@ -13059,6 +12985,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 326.39) (xy 49.53 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d086875e-93d1-40c8-9586-e3e7f19ae336")
+	)
+	(wire
+		(pts
 			(xy 281.94 48.26) (xy 299.72 48.26)
 		)
 		(stroke
@@ -13226,6 +13162,16 @@
 			(type default)
 		)
 		(uuid "d932bc0c-d49f-4846-bfb4-bd212751506b")
+	)
+	(wire
+		(pts
+			(xy 49.53 344.17) (xy 49.53 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97403c4-bf29-4c1b-919f-0205484c9217")
 	)
 	(wire
 		(pts
@@ -21610,6 +21556,177 @@
 		)
 	)
 	(symbol
+		(lib_id "Project_Parts:BHC-18650-1P")
+		(at 49.53 330.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58f5b43d-aa96-42d6-ad4d-d3f4383fe40c")
+		(property "Reference" "BT1"
+			(at 69.85 332.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BHC-18650-1P"
+			(at 61.214 341.884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_MPD_BH-18650-PC"
+			(at 68.58 425.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://koreelectronics.com/wp-content/uploads/2015/09/KRE-18650-1P.pdf"
+			(at 68.58 525.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "18650 Cell Battery Holder"
+			(at 49.53 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "21.5"
+			(at 68.58 725.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Korean Hroparts Elec"
+			(at 68.58 825.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BHC-18650-1P"
+			(at 68.58 925.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 68.58 1025.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 68.58 1125.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 68.58 1225.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 68.58 1325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "defb59e8-7ab0-4e50-9f33-2ee155eedf1d")
+		)
+		(pin "MH1"
+			(uuid "a86f959f-4b1b-4777-85ec-8d6259717506")
+		)
+		(pin "MH2"
+			(uuid "6c761799-ecfc-41f3-aedc-ac6bacd4a50a")
+		)
+		(pin "2"
+			(uuid "6b8f2c2e-c691-4dce-b275-3c767c0124fa")
+		)
+		(instances
+			(project "Tracker"
+				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 58.42 152.4 0)
 		(unit 1)
@@ -29376,222 +29493,6 @@
 			(project "Tracker"
 				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BH-18650-PC:BH-18650-PC")
-		(at 50.8 335.28 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b088c576-c1b1-4bec-bfb0-1307a9553a17")
-		(property "Reference" "BT1"
-			(at 54.61 331.4699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BH-18650-PC"
-			(at 54.61 334.0099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:BH18650PC"
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "18650 cell battery holders,li-ion battery holders"
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "MPD (Memory Protection Devices)"
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "21.31mm"
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BH-18650-PC/MPD/view-part/?ref=eda"
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendation"
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "05/17/19"
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BH-18650-PC/MPD/view-part/?ref=snap"
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "BH-18650-PC"
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "MPD"
-			(at 50.8 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "P"
-			(uuid "ea065bb5-7e2a-4def-988a-c7f6d2d37006")
-		)
-		(pin "N"
-			(uuid "9f6312d5-1d0c-4793-aba1-cecb806853db")
-		)
-		(instances
-			(project "Tracker"
-				(path "/586d1ea1-b017-4713-987c-545d658f6cc8"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
