@@ -21586,7 +21586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:BHC186501P"
+		(property "Footprint" "Battery:BatteryHolder_MPD_BH-18650-PC"
 			(at 68.58 425.12 0)
 			(hide yes)
 			(show_name no)
