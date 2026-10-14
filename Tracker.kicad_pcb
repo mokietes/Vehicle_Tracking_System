@@ -627,7 +627,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "02151681-57b3-4086-83c2-2c9d414351f3")
-		(at 75.5 217.55)
+		(at 93.725 256.5)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP35"
@@ -736,11 +736,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "02244316-b6dc-4188-8718-70aaf21fc560")
-		(at 22.74 219.12)
+		(at 94 222.275 90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP16"
-			(at 0 -1.648 0)
+			(at 0 -1.648 90)
 			(layer "F.SilkS")
 			(uuid "0d82df83-2d8a-4362-b86a-01c6a6c38ab6")
 			(effects
@@ -751,7 +751,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 1.75 0)
+			(at 0 1.75 90)
 			(layer "F.Fab")
 			(uuid "68e2d6e8-0dcd-4a3b-88ff-d35423c8d88c")
 			(effects
@@ -762,7 +762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -775,7 +775,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -821,7 +821,7 @@
 			(uuid "d582de16-a15e-48a8-a172-e000d9a93c9e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.Fab")
 			(uuid "3074bb5b-2c84-450e-994b-2c5b32649677")
 			(effects
@@ -832,7 +832,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "I2C_SDA")
@@ -1009,7 +1009,7 @@
 		(property "Reference" "U4"
 			(at -0.1 -1.9 90)
 			(layer "F.SilkS")
-			(uuid "10b88945-c720-4328-b361-b192139d3e62")
+			(uuid "f53c7c9b-f5a0-4f18-8a1e-7691cbce3af8")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1021,7 +1021,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0acd56c6-f7f6-4f08-ad71-88bf3f050d7b")
+			(uuid "6293c258-d998-4569-9c78-5ead8013e787")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,7 +1033,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dbe3efbc-1294-44d7-9a6c-4f4a2362bd63")
+			(uuid "6595a926-9926-48c2-b5cf-28e1b834fe75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1044,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54b82a06-2b53-487f-8da2-e03c720d7d39")
+			(uuid "e8118a9d-f02e-4181-9d59-16f32e2966a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,11 +3308,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "083fc20c-0f4f-4b46-90cb-885f0f96602d")
-		(at 33.5664 185.9028)
+		(at 89.925 206.775 -90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP6"
-			(at 0 -1.648 0)
+			(at 0 -1.648 90)
 			(layer "F.SilkS")
 			(uuid "94846e74-8ef5-4059-bedc-ef18e7140997")
 			(effects
@@ -3323,7 +3323,7 @@
 			)
 		)
 		(property "Value" "TP 9"
-			(at 0 1.75 0)
+			(at 0 1.75 90)
 			(layer "F.Fab")
 			(uuid "470b67c2-5503-4cbc-8ac5-4a8a166ae8f8")
 			(effects
@@ -3334,7 +3334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3347,7 +3347,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3393,7 +3393,7 @@
 			(uuid "5a36fe1e-72b7-4a0f-9901-3123b9fdccbb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.Fab")
 			(uuid "7d67c760-a58f-4f1c-98b6-c74ff4d5ae15")
 			(effects
@@ -3404,7 +3404,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "3V3_AON")
@@ -4652,7 +4652,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "11ae9355-e302-431c-b68d-cdc942ab5954")
-		(at 37.1164 178.8028)
+		(at 89.725 189.425)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP12"
@@ -4761,11 +4761,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "1248ca43-3fb7-478a-b772-889330758806")
-		(at 22.74 208.47)
+		(at 90.05 222.7 90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP27"
-			(at 0 -1.648 0)
+			(at 0 -1.648 90)
 			(layer "F.SilkS")
 			(uuid "a3a77a94-a59c-41fb-ab81-0d2e41808c40")
 			(effects
@@ -4776,7 +4776,7 @@
 			)
 		)
 		(property "Value" "TP 202"
-			(at 0 1.75 0)
+			(at 0 1.75 90)
 			(layer "F.Fab")
 			(uuid "f682a55d-d711-44c5-8a20-5636f52d0c58")
 			(effects
@@ -4787,7 +4787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4800,7 +4800,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4846,7 +4846,7 @@
 			(uuid "ebb7d2b0-f0d8-4ae3-91ea-4e66d6f8a388")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.Fab")
 			(uuid "04e10b1c-fdc5-4e2a-8175-66035e4d5b50")
 			(effects
@@ -4857,7 +4857,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "Net-(D4-K)")
@@ -4870,11 +4870,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "13898c44-8bc3-4d91-a76c-1a57e7702ccf")
-		(at 30.0164 178.8028)
+		(at 89.525 203.225 -90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
-			(at 0 -1.648 0)
+			(at 0 -1.648 90)
 			(layer "F.SilkS")
 			(uuid "f651a20f-76e3-476a-b968-7c5aaf8efdfc")
 			(effects
@@ -4885,7 +4885,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 1.75 0)
+			(at 0 1.75 90)
 			(layer "F.Fab")
 			(uuid "d87ba427-f49b-4ea8-b763-f2e0ce730048")
 			(effects
@@ -4896,7 +4896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4909,7 +4909,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4955,7 +4955,7 @@
 			(uuid "b274d8ca-aa0a-485f-aaaa-2cd0a0fed257")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.Fab")
 			(uuid "c2a4211a-9a80-4a39-a2b2-92b15e73cbd8")
 			(effects
@@ -4966,7 +4966,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "/VBUS_MUX")
@@ -4979,7 +4979,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "14b511c8-9b4c-4c02-8434-afcdb96ac21e")
-		(at 64.85 217.55)
+		(at 86.1 255.9)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP29"
@@ -5088,7 +5088,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "1511f009-c2c6-4ef5-9d40-f1ec58a2b737")
-		(at 22.74 204.92)
+		(at 78.825 236.65)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP26"
@@ -5671,7 +5671,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "19a02b39-0abd-4df6-84f7-0a8bd9495750")
-		(at 68.4 214)
+		(at 89.65 256.2)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP30"
@@ -5780,11 +5780,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "1ae3213a-ccdd-4f80-a9eb-07a41ae8b921")
-		(at 30.0164 175.2528)
+		(at 97.525 202.8 -90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP13"
-			(at 0 -1.648 0)
+			(at 0 -1.648 90)
 			(layer "F.SilkS")
 			(uuid "c58349de-5161-430c-a022-9b72d1411042")
 			(effects
@@ -5795,7 +5795,7 @@
 			)
 		)
 		(property "Value" "TP 1"
-			(at 0 1.75 0)
+			(at 0 1.75 90)
 			(layer "F.Fab")
 			(uuid "bd4d532c-6458-4e2c-be4c-2033f96be519")
 			(effects
@@ -5806,7 +5806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5819,7 +5819,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5865,7 +5865,7 @@
 			(uuid "e2b0124f-cec9-4a95-bc54-d5610f2deb47")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.Fab")
 			(uuid "6ab1ff6f-c4dc-495f-8d54-7d39bef35d25")
 			(effects
@@ -5876,7 +5876,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "VIN_PROT")
@@ -6053,7 +6053,7 @@
 		(property "Reference" "TH1"
 			(at 2.54 -1.92 90)
 			(layer "F.SilkS")
-			(uuid "38de05a0-cf18-436b-a87f-cad8451d783c")
+			(uuid "479ce7a1-d1d8-483c-8e35-f4d611602a68")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6064,7 +6064,7 @@
 		(property "Value" "10k NTC"
 			(at 2.54 1.92 90)
 			(layer "F.Fab")
-			(uuid "14130a93-116f-4117-8f6c-a92d0dc4d3a5")
+			(uuid "c24f67d8-00a3-49c8-8db6-86f39181d66a")
 			(effects
 				(font
 					(size 1 1)
@@ -6076,7 +6076,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6521b346-67da-465a-bbdf-af565a709271")
+			(uuid "434908e5-e746-43de-89dd-5e5b455f1e57")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +6087,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07504ec7-bd90-4b39-bf9d-9801f20cb4e8")
+			(uuid "d16f5b75-97f0-4f46-96ff-4c08bd4d3ea9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7283,7 @@
 		(property "Reference" "C6"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(uuid "e3c11dfc-4d12-4600-ae0a-2370e2f8dcb0")
+			(uuid "79d1e66b-aef1-437e-8899-29ea2405539e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7294,7 +7294,7 @@
 		(property "Value" "100nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "680a79e7-8010-4f62-bebf-be81e2bfa88b")
+			(uuid "8d13518c-b195-495d-881f-9304ea5817e0")
 			(effects
 				(font
 					(size 1 1)
@@ -7306,7 +7306,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3fe2a91-3ce9-4a70-ad15-e43e284c527b")
+			(uuid "aade4600-148b-44c5-b004-80ee157a8ce1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7317,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba31bb6a-f91b-40c9-8259-f73fa39cc1b1")
+			(uuid "14bb60e0-27fc-46ec-8fc1-6c72de7d13c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8037,7 +8037,7 @@
 		(property "Reference" "R17"
 			(at 2.8 0 90)
 			(layer "F.SilkS")
-			(uuid "3400c905-0dfd-4b2d-8e9a-684f0d1dac32")
+			(uuid "dde397ee-2a78-4616-93b4-14cd1d9855c2")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8048,7 +8048,7 @@
 		(property "Value" "5.1M"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "fc807105-6d08-49eb-8fce-90c7b6a2e815")
+			(uuid "5b4a7fae-b60b-4135-a6c3-c08deeec957c")
 			(effects
 				(font
 					(size 1 1)
@@ -8060,7 +8060,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79bebc78-8559-4b20-a5dd-5ee76fc1b171")
+			(uuid "3a41219c-3cd6-4f4a-b354-d16549163317")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,7 +8071,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f22ad057-1ac2-449f-aed6-2cb36e8a880f")
+			(uuid "c72a97bd-60c1-4fe1-9a08-dfee2de6b54f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12552,11 +12552,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "3ca28677-b6f2-472c-91f8-a68b80678aed")
-		(at 33.5664 175.2528)
+		(at 93.675 202.925 -90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP14"
-			(at 0 -1.648 0)
+			(at 0 -1.648 90)
 			(layer "F.SilkS")
 			(uuid "e0cad38a-0a55-4fb7-a36f-bb7b22651508")
 			(effects
@@ -12567,7 +12567,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 1.75 0)
+			(at 0 1.75 90)
 			(layer "F.Fab")
 			(uuid "454fc92e-a53e-4c78-ac40-557ca01b2ab7")
 			(effects
@@ -12578,7 +12578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12591,7 +12591,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12637,7 +12637,7 @@
 			(uuid "c3770b92-6334-4a9a-a65c-875b0ae5b9a5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.Fab")
 			(uuid "1c7d4bc6-3e10-4e4a-8993-64899a7c8ded")
 			(effects
@@ -12648,7 +12648,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "5V_VEH")
@@ -14256,7 +14256,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "475cca79-916f-4527-987c-2c3963c2d28c")
-		(at 68.4 217.55)
+		(at 82.775 245.55)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP31"
@@ -14968,7 +14968,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "4cceba5b-3af2-40a2-9a85-e8925353fbe9")
-		(at 37.1164 175.2528)
+		(at 31.775 198.55)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -17007,7 +17007,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "56ccb95b-181c-4abb-b902-0cc78dbf70cc")
-		(at 25.25 205.5)
+		(at 81.775 236.625)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP20"
@@ -18404,7 +18404,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "5e9d676a-ab28-4144-8dcf-f898f84f3722")
-		(at 71.95 214)
+		(at 86.125 245.85)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP32"
@@ -21412,7 +21412,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "707fdc1d-ae7e-4009-b554-1c8513e4e70d")
-		(at 19.19 208.47)
+		(at 99.825 236.4)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP23"
@@ -23198,7 +23198,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "7356edd5-bacb-42a7-a19f-06dc7ad26130")
-		(at 19.19 219.12)
+		(at 85.2 236.65)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP25"
@@ -23623,7 +23623,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "79357715-f8bd-4db9-ad21-26fda2d01db7")
-		(at 71.95 217.55)
+		(at 88.95 245.75)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP33"
@@ -25754,7 +25754,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "82d70fb2-7fda-4a85-b78b-2ad8f11084c5")
-		(at 37.1164 182.3528)
+		(at 82.55 189.525)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP11"
@@ -26495,13 +26495,13 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "87b45ab7-55ea-4561-b1a0-19bdd9fb2355")
-		(at 30.0164 182.3528)
+		(at 83.2 182.025)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP5"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(uuid "84befc31-b650-4677-ba78-6b344032d7be")
+			(uuid "eea7380e-79aa-4b88-b4b4-df932b104eed")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -26512,7 +26512,7 @@
 		(property "Value" "~"
 			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "657088f3-c132-4e3c-997e-81d2c7c93838")
+			(uuid "219a1be9-f309-4c66-9c71-53669b55ea61")
 			(effects
 				(font
 					(size 1 1)
@@ -26525,7 +26525,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "521d875a-e0a0-4f06-945a-41d0a42302a0")
+			(uuid "b699f858-470d-472e-947e-049a30db6d31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26538,7 +26538,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f392d36-9637-40c1-b420-41f51adde798")
+			(uuid "cf8c4ff6-8ab1-4616-a2f5-8c5112413969")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29164,11 +29164,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "90a9377b-a2c8-47c0-a18d-887fc3609bd4")
-		(at 22.74 215.57)
+		(at 97.55 221.675 90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP17"
-			(at 0 -1.648 0)
+			(at 0 -1.648 90)
 			(layer "F.SilkS")
 			(uuid "44460a19-1a82-4511-a1c1-a3e815387074")
 			(effects
@@ -29179,7 +29179,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 1.75 0)
+			(at 0 1.75 90)
 			(layer "F.Fab")
 			(uuid "3e107496-340b-4a34-901e-0fa60c0868c1")
 			(effects
@@ -29190,7 +29190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29203,7 +29203,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29249,7 +29249,7 @@
 			(uuid "e61c7a15-968f-42a3-8ab8-1d68b8056d34")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.Fab")
 			(uuid "5d545bc4-48a7-4b17-9564-724c22d6d555")
 			(effects
@@ -29260,7 +29260,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "I2C_SCL")
@@ -30106,11 +30106,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "93d5fae6-9ad9-47d3-930c-d5a1479d6521")
-		(at 19.19 215.57)
+		(at 86.2 223.4 90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP18"
-			(at 0 -1.648 0)
+			(at 0 -1.648 90)
 			(layer "F.SilkS")
 			(uuid "a697ea6a-114b-46ee-a37b-d79924a3d853")
 			(effects
@@ -30121,7 +30121,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 1.75 0)
+			(at 0 1.75 90)
 			(layer "F.Fab")
 			(uuid "6dcbeafa-4e44-4233-8d9e-cedc42ef5875")
 			(effects
@@ -30132,7 +30132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -30145,7 +30145,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -30191,7 +30191,7 @@
 			(uuid "5af4d0d1-49f3-4e64-bff9-c6491f3d14ce")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.Fab")
 			(uuid "cac17ab2-9eb7-42df-bd38-bd7ff4cf8737")
 			(effects
@@ -30202,7 +30202,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "Net-(J4-Pin_2)")
@@ -34493,11 +34493,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "a3be0c15-a4a1-411e-ae69-224e89000004")
-		(at 33.5664 182.3528)
+		(at 85.575 206.575 -90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
-			(at 0 -1.648 0)
+			(at 0 -1.648 90)
 			(layer "F.SilkS")
 			(uuid "adf449f9-1bb4-498d-97ad-f512cf0701d0")
 			(effects
@@ -34508,7 +34508,7 @@
 			)
 		)
 		(property "Value" "TP 9"
-			(at 0 1.75 0)
+			(at 0 1.75 90)
 			(layer "F.Fab")
 			(uuid "910298d8-2e42-4c77-8c03-45e463e9aed1")
 			(effects
@@ -34519,7 +34519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34532,7 +34532,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34578,7 +34578,7 @@
 			(uuid "f485c98f-572a-4d47-8b5c-69188821bc30")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.Fab")
 			(uuid "231a6313-2384-4f54-a9f0-0dca78800e5e")
 			(effects
@@ -34589,7 +34589,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "/VOUT_SC")
@@ -36041,11 +36041,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "ac95546d-75c8-4194-93e4-9b6812792db3")
-		(at 33.5664 178.8028)
+		(at 85.675 203.525 -90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
-			(at 0 -1.648 0)
+			(at 0 -1.648 90)
 			(layer "F.SilkS")
 			(uuid "58aa08e8-10fa-419a-ac93-6027db3932b9")
 			(effects
@@ -36056,7 +36056,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 1.75 0)
+			(at 0 1.75 90)
 			(layer "F.Fab")
 			(uuid "99ddee50-4b69-49a4-ac94-9dc117482fc6")
 			(effects
@@ -36067,7 +36067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36080,7 +36080,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36126,7 +36126,7 @@
 			(uuid "25d7948b-8a55-4936-b29e-548f62a0b9f9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.Fab")
 			(uuid "1e6248d8-ec30-470b-86af-a57b4c6e688a")
 			(effects
@@ -36137,7 +36137,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "VBAT_BG95")
@@ -36940,7 +36940,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "b1e35fa9-36bc-41c3-8972-4109eeab934d")
-		(at 64.85 214)
+		(at 82.875 255.8)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP28"
@@ -40167,11 +40167,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "c16508bf-53e0-4525-9f8b-ba9b0c92da1d")
-		(at 26.5586 209.2432)
+		(at 85.95 220.3 90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP19"
-			(at 0 -1.648 0)
+			(at 0 -1.648 90)
 			(layer "F.SilkS")
 			(uuid "a346637e-0adc-44c5-bd6f-9489baa204cd")
 			(effects
@@ -40182,7 +40182,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at -0.9652 3.937 0)
+			(at -0.9652 3.937 90)
 			(layer "F.Fab")
 			(uuid "77acb13f-4d41-40f0-969d-0498ab9a1617")
 			(effects
@@ -40193,7 +40193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -40206,7 +40206,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -40252,7 +40252,7 @@
 			(uuid "73c7c866-e3ca-4813-9364-b5b1af8d8ac3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.Fab")
 			(uuid "46480a88-ff65-47de-b0f2-60cd0737cf68")
 			(effects
@@ -40263,7 +40263,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "Net-(U20-LIN-receive(GPIO4))")
@@ -40276,7 +40276,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "c20f2c07-6f8e-49e7-8ff7-fdc2c0d6bbf2")
-		(at 75.5 214)
+		(at 91.7 245.85)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP34"
@@ -44443,7 +44443,7 @@
 		(property "Reference" "J6"
 			(at 0 -0.2 90)
 			(layer "F.SilkS")
-			(uuid "0a093592-fc10-4620-b483-535b03437b93")
+			(uuid "0c2d3176-7309-4c0d-b460-93bdd35d2073")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -44455,7 +44455,7 @@
 			(at 0 -0.2 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bd7e6887-2a93-47bf-8691-0a4d62966670")
+			(uuid "f1ecafad-ec9b-41c9-b515-9fa76c397a04")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44467,7 +44467,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6b73652-9665-42ac-95b8-7b17b5baa5eb")
+			(uuid "afdba2bd-ab16-49c9-90f1-51a6546cfd34")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44478,7 +44478,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2dd07a83-d82f-4fb1-8a16-e72fb8b6cb29")
+			(uuid "199cfccc-a4b7-45ce-b8ed-ef72136b7a1a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45710,7 +45710,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "dce0fec5-55e7-4fad-9d58-a32bcfa627d5")
-		(at 19.19 212.02)
+		(at 102.9 236.4)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP24"
@@ -50021,7 +50021,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "e8cfee3d-7092-4702-9eba-4de0779df9ae")
-		(at 37.1164 185.9028)
+		(at 85.975 189.625)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP10"
@@ -52365,11 +52365,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "f3e83c7e-8def-4e84-8e94-91e7737c2e55")
-		(at 22.74 212.02)
+		(at 90.15 219.05 90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP21"
-			(at 0 -1.648 0)
+			(at 0 -1.648 90)
 			(layer "F.SilkS")
 			(uuid "bd10fe29-8108-4de8-9da7-7e0bbe45b30f")
 			(effects
@@ -52380,7 +52380,7 @@
 			)
 		)
 		(property "Value" "TP 201"
-			(at 0 1.75 0)
+			(at 0 1.75 90)
 			(layer "F.Fab")
 			(uuid "6aa2a098-d53a-495e-83eb-f0a37df8d411")
 			(effects
@@ -52391,7 +52391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -52404,7 +52404,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -52450,7 +52450,7 @@
 			(uuid "0a534112-aada-4fdb-8578-d306df19906a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.Fab")
 			(uuid "72a17040-a7c0-4c2c-a957-0b950c3dd7a5")
 			(effects
@@ -52461,7 +52461,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "3V3_AON")
@@ -52632,7 +52632,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "f492e5d9-bc27-4b68-9242-70a466e27bd3")
-		(at 26.29 212.02)
+		(at 95.8 236.775)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP22"
@@ -53063,7 +53063,7 @@
 		(property "Reference" "Q1"
 			(at -0.025 -2.965 0)
 			(layer "F.SilkS")
-			(uuid "129e72de-da64-44a8-8441-a61de6ce55e6")
+			(uuid "8cea9857-26cf-4260-8ad2-415ff5eff2e3")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -53075,7 +53075,7 @@
 			(at -0.36791 -0.00685 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6537d498-decd-42b2-adef-069a770d081d")
+			(uuid "2654b32e-ba0f-4782-acb7-5913c160834f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53087,7 +53087,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21170f1b-d00b-4d01-a8d6-95382951455c")
+			(uuid "0ed49f1b-2573-4451-9570-24d90b131e9c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53098,7 +53098,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1b2c232-850a-409b-87d2-2a892cfcb275")
+			(uuid "e8f9dcf1-974c-457c-8fea-b8c61d3c9c7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56693,7 +56693,7 @@
 			(at 0 5.5 90)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "d4bb4cd0-f758-4c58-a074-d6a2ae3de5a2")
+			(uuid "c8e0f03b-6a69-40e2-b4ae-5978cea15480")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -56706,7 +56706,7 @@
 			(at 0 -5 90)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "718b5588-241a-413c-bc2c-25a579af11da")
+			(uuid "93d51cc3-1e65-4de6-8571-74f8f6184838")
 			(effects
 				(font
 					(size 1 1)
@@ -56720,7 +56720,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1c7e4e80-8ad8-42f1-b252-67a2b408f61a")
+			(uuid "09675c48-3adf-4ad3-99be-f13b9528c94e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56734,7 +56734,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "098d0324-3d03-4583-ac75-f720b0a17e06")
+			(uuid "5c1aafda-edf5-49bf-9b94-fec59f136dfd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57531,7 +57531,7 @@
 		(property "Reference" "J1"
 			(at 1.5 8.2 90)
 			(layer "B.SilkS")
-			(uuid "858c98e8-6302-4dbc-b091-253a580a1eca")
+			(uuid "aa1f81ea-45bf-4292-9994-c32f2341291e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -57543,7 +57543,7 @@
 		(property "Value" "Vehicle 12V 2X2"
 			(at 1.5 -5.7 90)
 			(layer "B.Fab")
-			(uuid "9048df44-df5f-43a7-b2d4-b2c64ce9cb19")
+			(uuid "5bb39796-5662-44ab-9a39-a2bfc99f6b7a")
 			(effects
 				(font
 					(size 1 1)
@@ -57556,7 +57556,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bc2d7c9d-dc7a-4909-9895-0ad41ccffa96")
+			(uuid "174281cf-a82d-4737-899e-faa6ca2a00ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57568,7 +57568,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "516a733a-b9d3-4e79-b4a3-7e91376e7f6e")
+			(uuid "9c420c63-c805-47f0-a55f-6c84a125c264")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57898,7 +57898,6 @@
 		)
 	)
 	(footprint "Battery:BatteryHolder_MPD_BH-18650-PC"
-		(locked yes)
 		(layer "B.Cu")
 		(uuid "d8dbf53e-403d-4b5f-a59a-198469c93747")
 		(at 118.044 158.369)
@@ -58063,7 +58062,6 @@
 				(justify mirror)
 			)
 		)
-		(path "/58f5b43d-aa96-42d6-ad4d-d3f4383fe40c")
 		(sheetname "/")
 		(sheetfile "Tracker.kicad_sch")
 		(units
