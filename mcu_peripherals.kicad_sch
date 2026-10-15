@@ -21213,7 +21213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 341.122 331.978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21300,7 +21300,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10uF"
 			(at 168.91 313.944 0)
 			(show_name no)
 			(do_not_autoplace no)
