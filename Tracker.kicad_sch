@@ -8970,7 +8970,7 @@
 		(uuid "1f2726d5-bde9-40f4-9881-b17314f4c4fd")
 	)
 	(junction
-		(at 49.53 326.39)
+		(at 52.07 326.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20107492-c9e7-4359-a6b8-8db357b4765d")
@@ -10029,16 +10029,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 326.39) (xy 87.63 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cc50d8a-ad70-4ca9-a627-747baa6eb511")
-	)
-	(wire
-		(pts
 			(xy 388.62 147.32) (xy 417.83 147.32)
 		)
 		(stroke
@@ -10179,7 +10169,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 326.39) (xy 49.53 327.66)
+			(xy 52.07 326.39) (xy 52.07 328.93)
 		)
 		(stroke
 			(width 0)
@@ -11029,7 +11019,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 326.39) (xy 49.53 326.39)
+			(xy 45.72 326.39) (xy 87.63 326.39)
 		)
 		(stroke
 			(width 0)
@@ -12469,7 +12459,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 344.17) (xy 87.63 344.17)
+			(xy 52.07 344.17) (xy 87.63 344.17)
 		)
 		(stroke
 			(width 0)
@@ -13119,7 +13109,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 340.36) (xy 49.53 344.17)
+			(xy 52.07 341.63) (xy 52.07 344.17)
 		)
 		(stroke
 			(width 0)
@@ -17047,7 +17037,7 @@
 	)
 	(symbol
 		(lib_id "BH-18650-PC:BH-18650-PC")
-		(at 49.53 335.28 270)
+		(at 52.07 336.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17058,7 +17048,7 @@
 		(fields_autoplaced yes)
 		(uuid "1976b6f7-7f59-4e76-a402-04e4d16a5c0e")
 		(property "Reference" "BT2"
-			(at 53.34 331.4699 90)
+			(at 55.88 332.7399 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17070,7 +17060,7 @@
 			)
 		)
 		(property "Value" "BH-18650-PC"
-			(at 53.34 334.0099 90)
+			(at 55.88 335.2799 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17082,7 +17072,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_MPD_BH-18650-PC"
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17094,7 +17084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17105,7 +17095,7 @@
 			)
 		)
 		(property "Description" "18650 cell battery holders,li-ion battery holders"
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17117,7 +17107,7 @@
 			)
 		)
 		(property "MF" "MPD (Memory Protection Devices)"
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17129,7 +17119,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "21.31mm"
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17141,7 +17131,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17153,7 +17143,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17165,7 +17155,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BH-18650-PC/MPD/view-part/?ref=eda"
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17177,7 +17167,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17189,7 +17179,7 @@
 			)
 		)
 		(property "PARTREV" "05/17/19"
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17201,7 +17191,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BH-18650-PC/MPD/view-part/?ref=snap"
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17213,7 +17203,7 @@
 			)
 		)
 		(property "MP" "BH-18650-PC"
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17225,7 +17215,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17237,7 +17227,7 @@
 			)
 		)
 		(property "MANUFACTURER" "MPD"
-			(at 49.53 335.28 0)
+			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
