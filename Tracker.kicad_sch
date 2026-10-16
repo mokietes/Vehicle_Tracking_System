@@ -17071,7 +17071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_MPD_BH-18650-PC"
+		(property "Footprint" "SamacSys_Parts:BAT_BH-18650-PC"
 			(at 52.07 336.55 0)
 			(hide yes)
 			(show_name no)
