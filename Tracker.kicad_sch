@@ -16318,7 +16318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TI_Parts:IND_XGL4020_COC"
+		(property "Footprint" "TI_Parts:IND_XGL4020_COC-M"
 			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -17940,7 +17940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TI_Parts:IND_XGL4020_COC"
+		(property "Footprint" "TI_Parts:IND_XGL4020_COC-M"
 			(at 86.36 260.35 0)
 			(hide yes)
 			(show_name no)
