@@ -16318,7 +16318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TI_Parts:IND_XGL4020_COC-M"
+		(property "Footprint" "SamacSys_Parts:XGL4020822MEC"
 			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -17940,7 +17940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TI_Parts:IND_XGL4020_COC-M"
+		(property "Footprint" "SamacSys_Parts:XGL4020822MEC"
 			(at 86.36 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -19425,7 +19425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:DIONM5436X244N"
+		(property "Footprint" "SamacSys_Parts:SM8S33CA"
 			(at 416.56 160.96 0)
 			(hide yes)
 			(show_name no)
@@ -20362,7 +20362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_3.2mm_M3"
+		(property "Value" "MountingHole_2.2mm_M2"
 			(at 265.9499 354.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20373,7 +20373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 262.89 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -21944,7 +21944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_3.2mm_M3"
+		(property "Value" "MountingHole_2.2mm_M2"
 			(at 265.5743 360.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21955,7 +21955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 262.89 359.41 0)
 			(hide yes)
 			(show_name no)
@@ -25651,7 +25651,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_3.2mm_M3"
+		(property "Value" "MountingHole_2.2mm_M2"
 			(at 265.43 341.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25662,7 +25662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 262.89 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -27141,7 +27141,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_3.2mm_M3"
+		(property "Value" "MountingHole_2.2mm_M2"
 			(at 265.8511 347.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27152,7 +27152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 262.89 346.71 0)
 			(hide yes)
 			(show_name no)
