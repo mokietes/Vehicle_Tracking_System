@@ -526,10 +526,32 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.3,
+        "name": "Car Input",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "Modem Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
         "clearance": 0.2,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "tuning_profile": "",
@@ -540,9 +562,20 @@
         "clearance": 0.2,
         "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.32,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "name": "USB pair",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "tuning_profile": ""
       }
     ],
@@ -551,7 +584,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "VSYS, /BAT_CELL, /BAT_CHG, /SYS_CHG, /VBUS_MUX, /VBUS_CHG, VBUS_USB, /VOUT_SC, 5V_VEH"
+      },
+      {
+        "netclass": "Car Input",
+        "pattern": "VIN_PROT, Net-(U10-PVIN_1)"
+      },
+      {
+        "netclass": "Modem Power",
+        "pattern": "VBAT_BG95, Net-(C76-Pad2)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(U27-ANT_MAIN), Net-(J7-In), Net-(U27-ANT_GNSS), Net-(J8-In), Net-(J2-In)"
+      },
+      {
+        "netclass": "USB pair",
+        "pattern": "/MCU_PERIPHERALS/USB_D*, Net-(U20-USB_D*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
