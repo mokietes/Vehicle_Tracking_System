@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SM8S33CA
+D Surface-Mount PAR Transient Voltage Suppressors, It 5mA, Vbr 38.7V, Vwm 33V, package DO-218AB,
+K
+F https://www.vishay.com/docs/98229/sm8s10cathrusm8s85ca.pdf
+$ENDCMP
+#
+#End Doc Library
