@@ -59138,14 +59138,6 @@
 		(layer "Edge.Cuts")
 		(uuid "b5099ec2-df0e-4248-8af9-061290ef039d")
 	)
-	(via
-		(at 201.93 105.6894)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "")
-		(uuid "c4ba84ca-7124-4208-b313-06fe6a7f13ff")
-	)
 	(zone
 		(net "GND")
 		(layer "B.Cu")
@@ -62492,6 +62484,94 @@
 				(xy 111.491275 102.147811) (xy 111.4595 102.348431) (xy 110.368159 102.348431) (xy 110.368171 102.34426)
 				(xy 110.373776 100.399215) (xy 110.392851 100.341079) (xy 110.442455 100.305258) (xy 110.472776 100.3005)
 				(xy 200.0005 100.3005)
+			)
+		)
+	)
+	(zone
+		(net "GND")
+		(layer "In2.Cu")
+		(uuid "20eef6d5-dd0a-41bf-a90f-c7babd8da046")
+		(name "GNSS ground patch")
+		(hatch edge 0.5)
+		(priority 5)
+		(connect_pads
+			(clearance 0.25)
+		)
+		(min_thickness 0.2)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 112.09 121.39) (xy 128.07 121.47) (xy 128.05 136.79) (xy 112.07 136.98)
+			)
+		)
+	)
+	(zone
+		(net "3V3_AON")
+		(layer "In2.Cu")
+		(uuid "418025fa-c461-474e-a791-9cc934d89e57")
+		(name "MCU power")
+		(hatch edge 0.5)
+		(priority 2)
+		(connect_pads
+			(clearance 0.25)
+		)
+		(min_thickness 0.2)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 111.03 101.47) (xy 143.04 101.4) (xy 142.77 154) (xy 111.24 153.55)
+			)
+		)
+	)
+	(zone
+		(net "GND")
+		(layer "In2.Cu")
+		(uuid "4c5de00c-f369-4858-ba91-8895baebfeb7")
+		(name "RF ground patch")
+		(hatch edge 0.5)
+		(priority 4)
+		(connect_pads
+			(clearance 0.25)
+		)
+		(min_thickness 0.2)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 132 100.85) (xy 158.07 100.77) (xy 158 112.08) (xy 131.91 111.91)
+			)
+		)
+	)
+	(zone
+		(net "VSYS")
+		(layer "In2.Cu")
+		(uuid "f62541fc-fb47-4dcc-bb4d-170b2f6444ed")
+		(name "Main power")
+		(hatch edge 0.5)
+		(priority 3)
+		(connect_pads
+			(clearance 0.25)
+		)
+		(min_thickness 0.2)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 143.04 101.4) (xy 199.11 101.4) (xy 199.25 154) (xy 143.01 154)
 			)
 		)
 	)

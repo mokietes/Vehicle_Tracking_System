@@ -19415,7 +19415,7 @@
 				)
 			)
 		)
-		(property "Value" "SMBJ33CA"
+		(property "Value" "SM8S33CA"
 			(at 415.544 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19484,7 +19484,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SMBJ33CA"
+		(property "Manufacturer_Part_Number" "SM8S33CAHM3/I"
 			(at 416.56 660.96 0)
 			(hide yes)
 			(show_name no)
